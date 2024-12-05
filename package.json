@@ -1,0 +1,23 @@
+{
+  "name": "bright-traffic",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch styles/main.scss styles/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsvetal/bright-traffic.git"
+  },
+  "author": "iTs_Vetal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsvetal/bright-traffic/issues"
+  },
+  "homepage": "https://github.com/itsvetal/bright-traffic#readme",
+  "dependencies": {
+    "sass": "^1.82.0"
+  }
+}

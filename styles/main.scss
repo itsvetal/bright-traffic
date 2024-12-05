@@ -1,0 +1,22 @@
+@use "rakuten";
+@use "next";
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex-grow: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}

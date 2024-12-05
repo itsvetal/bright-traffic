@@ -1,0 +1,231 @@
+a {
+  text-decoration: none;
+}
+
+.header-rakuten {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  hr {
+    width: 100%;
+    background-color: #828282;
+    margin-top: 1.2rem;
+  }
+}
+
+.rakuten-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 97%;
+
+  .rakuten-title__logo {
+    width: 21%;
+
+    .rakuten-title__logo svg {
+      width: 100%;
+      min-height: auto;
+    }
+  }
+
+  .rakuten-title__services {
+    display: flex;
+    justify-content: center;
+    width: 3rem;
+    height: auto;
+  }
+
+  .rakuten-form {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    width: 100%;
+  }
+
+  .rakuten-form__input {
+    flex: 1;
+    height: 92%;
+    border: 1px solid #bfbfbf;
+    border-radius: 0.2rem 0 0 0.2rem;
+  }
+
+
+  .rakuten-form__btn {
+    width: 3rem;
+    background-color: #333;
+    border-radius: 0 0.2rem 0.2rem 0;
+
+    svg {
+      width: 70%;
+      fill: #ffffff;
+    }
+  }
+}
+
+.rakuten-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0.5rem 0 0 2rem;
+
+  a {
+    color: #828282;
+  }
+
+  .rakuten-nav__item {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+
+    .rakuten-nav__item__content {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .rakuten-nav__item__content__img {
+      max-width: 1.5rem;
+      margin-right: 0.2rem;
+    }
+
+    .rakuten-nav__item__content__img svg {
+      width: 100%;
+      min-height: auto;
+    }
+
+    #rakuten-club {
+      max-width: 3.2rem;
+      margin-right: 0.2rem;
+    }
+
+    #rakuten-club svg {
+      width: 100%;
+      min-height: auto;
+    }
+
+    .rakuten-nav__item__content__text {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+}
+
+.footer-rakuten {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-rakuten-block-1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 2rem;
+
+  a {
+    text-decoration: none;
+    color: #828282;
+  }
+
+  .rakuten-block-1__item {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rakuten-block-1__item__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .rakuten-block-1__item__content__img {
+    max-width: 3rem;
+    margin-right: 0.2rem;
+  }
+
+  .rakuten-block-1__item__content__img svg {
+    width: 100%;
+    min-height: auto;
+  }
+
+  #rakuten-club-2 {
+    max-width: 3.2rem;
+    margin-right: 0.2rem;
+  }
+
+  #rakuten-club-2 svg {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .rakuten-block-1__item__content__text {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+
+    .rakuten-block-1__item__content__text-1 {
+      font-size: 0.6rem;
+    }
+
+    .rakuten-block-1__item__content__text-2 {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+.footer-rakuten-block-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+  width: 100%;
+  background-color: #f7f7f7;
+
+  a {
+    color: black;
+  }
+
+  li {
+    list-style-type: none;
+    margin-top: 0.7rem;
+
+    span {
+      color: #828282;
+    }
+  }
+
+  .footer-rakuten-block-2__item__list__head {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+}
+
+
+::-webkit-input-placeholder {
+  color: grey;
+  font-family: 'Menlo', 'Times New Roman', 'Tahoma', sans-serif;
+}
+
+:-moz-placeholder {
+  color: grey;
+  font-family: 'Menlo', 'Times New Roman', 'Tahoma', sans-serif;
+
+}
+
+::-moz-placeholder {
+  color: grey;
+  font-family: 'Menlo', 'Times New Roman', 'Tahoma', sans-serif;
+
+}
+
+:-ms-input-placeholder {
+  color: grey;
+  font-family: 'Menlo', 'Times New Roman', 'Tahoma', sans-serif;
+}
+
