@@ -11,10 +11,26 @@ body {
 .main-header {
   display: flex;
   flex-direction: column;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: white;
+
+  & > * {
+    display: none;
+  }
+}
+
+.main-footer {
+  & > * {
+    display: none;
+  }
 }
 
 .container {
   flex-grow: 1;
+  margin-top: 10rem;
 }
 
 footer {

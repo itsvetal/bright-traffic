@@ -10,7 +10,7 @@ a {
   hr {
     width: 100%;
     background-color: #828282;
-    margin-top: 1.2rem;
+    margin: 1.2rem 0 1rem 0;
   }
 }
 
@@ -122,7 +122,7 @@ a {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-bottom: 2rem;
+  margin: 2rem;
 
   a {
     text-decoration: none;
@@ -206,6 +206,164 @@ a {
 
 }
 
+.footer-rakuten-block-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 1rem 0 1rem 0;
+
+  .footer-rakuten-block-3__socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border-right: 1px solid black;
+    padding: 1rem 2rem;
+  }
+
+  .rakuten-block-3__socials__item {
+    width: 100%;
+  }
+
+  .rakuten-block-3__socials__item__content__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 2.1rem;
+  }
+
+  .rakuten-block-3__socials__item__content__img svg {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .footer-rakuten-block-3__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    padding: 1rem 2rem;
+  }
+
+  .rakuten-block-3__cards__item__content__img {
+    max-width: 3rem;
+    margin-right: 0.2rem;
+  }
+
+  .rakuten-block-3__cards__item__content__img svg {
+    width: 100%;
+    min-height: auto;
+  }
+}
+
+.footer-rakuten-block-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 2rem 0;
+
+  .rakuten-block-4__text {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .rakuten-block-4__cards {
+    display: flex;
+  }
+
+  .rakuten-block-4__cards__item {
+    width: 100%;
+    margin-right: 2rem;
+  }
+
+  .rakuten-block-4__cards__item__content__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 8.1rem;
+  }
+
+  .rakuten-block-4__cards__item__content__img svg {
+    width: 100%;
+    min-height: auto;
+  }
+
+}
+
+.footer-rakuten-block-5 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 1rem;
+  font-size: 0.8rem;
+
+  a {
+    color: #777777;
+  }
+
+  .rakuten-block-5__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .rakuten-block-5__item__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 6.1rem;
+  }
+
+  .rakuten-block-5__item__img svg {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .rakuten-block-5__item__text__country {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #777777;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    width: 8rem;
+  }
+
+}
+
+.footer-rakuten-block-6 {
+  font-size: 0.8rem;
+  margin: 1rem;
+}
+
+.footer-rakuten-block-7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 0.8rem;
+  width: 100%;
+  padding-bottom: 12rem;
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  .rakuten-block-7__item {
+
+  }
+}
 
 ::-webkit-input-placeholder {
   color: grey;
@@ -229,3 +387,7 @@ a {
   font-family: 'Menlo', 'Times New Roman', 'Tahoma', sans-serif;
 }
 
+.timer {
+  text-align: center;
+  font-size: 10rem;
+}

@@ -6,6 +6,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/switcher.js" defer></script>
+    <script src="scripts/scroller.js"></script>
 </head>
 <body>
 <header class="main-header">
@@ -158,12 +160,196 @@
         </nav>
         <hr>
     </div>
-    <div class="header-next"></div>
+
+    <div class="header-next">
+        <div class="header-next__block-1">
+            <span>
+                €2 Home delivery within 1-2 days | Free collection from store
+            </span>
+        </div>
+        <div class="header-next__block-2">
+            <div class="header-next__block-2__item">
+                <a href="">
+                    <span class="header-next__block-2__item__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="85"
+                             height="24" viewBox="0 0 85 24" fill="none">
+                        <g clip-path="url(#clip0_128_61)">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M0 2L14.4133 15.515V2.59163H17.5188V23L3.10571 9.31678V22.3749H0V2ZM49.0939 2.5906L54.7933 9.79991L60.4924 2.5906L64.5075 2.59137L56.7823 12.2449L64.5075 22.3754H60.4924L54.7931 14.8556L49.0939 22.3744H45.079L52.8041 12.2439L45.079 2.5906H49.0939ZM39.8436 2.59214V5.65621H28.2028V10.9138H38.7831V13.9499H28.2028V19.3113H39.8434V22.3749H25.0974V2.59214H39.8436ZM85.5597 2.58932V5.65288H78.4372V22.3716H75.3317V5.65288H68.2093V2.58932H85.5597Z"
+                              fill="#B78B20"/>
+                        </g><defs><clipPath id="clip0_128_61"><rect width="85" height="24"
+                                                                    fill="white"/></clipPath></defs>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+            <form class="header-next__block-2-form">
+                <label for="next-form__input"></label>
+                <input id="next-form__input" class="header-next__block-2-form__input" type="text"
+                       placeholder="Search product or brand">
+                <button class="header-next__block-2-form__btn">
+                        <span>
+                          <svg viewBox="0 0 43.09 43.64" class="">
+                              <g><title id="title-4">search</title></g>
+                              <g id="Calque_2" data-name="Calque 2">
+                                  <path d="M42.51,40.28,30.17,27.94a17.26,17.26,0,1,0-2.86,2.71L39.73,43.06a2,2,0,1,0,2.78-2.78ZM25.14,28.47A14,14,0,1,1,28,25.76"></path>
+                                  <g id="Calque_1-2" data-name="Calque 1" fill="#fff"></g></g>
+                          </svg>
+                        </span>
+                </button>
+            </form>
+            <div class="header-next__block-2__profile">
+                <div class="header-next__block-2__profile__item">
+                    <span>My Account</span>
+                </div>
+                <div class="header-next__block-2__profile__item">
+                    <a href="">
+                    <span class="header-next__block-2__profile__item__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                             width="24" height="24" viewBox="0 0 24 24"><path fill="#FFF" fill-rule="evenodd"
+                                                                              d="M7 8.667c0-2.758 2.242-5 5-5s5 2.242 5 5c0 2.757-2.242 5-5 5s-5-2.243-5-5Zm9.832 4.584a6.642 6.642 0 0 0 1.835-4.584 6.667 6.667 0 0 0-13.334 0 6.64 6.64 0 0 0 1.835 4.584C4.09 14.958 2 18.238 2 22h1.667c0-3.385 2.032-6.3 4.939-7.603a6.626 6.626 0 0 0 6.788 0c2.907 1.302 4.94 4.218 4.94 7.603H22c0-3.762-2.09-7.043-5.168-8.75Z"
+                                                                              clip-rule="evenodd"/>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+                <div class="header-next__block-2__profile__item">
+                    <a href="">
+                    <span class="header-next__block-2__profile__item__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="24"
+                             height="24" viewBox="0 0 24 24"><path fill="#FFF" fill-rule="evenodd"
+                                                                   d="M16.375 2c-1.76 0-3.268.806-4.375 1.908C10.893 2.806 9.384 2 7.625 2c-3.56 0-6.458 2.891-6.458 6.444 0 7.31 9.599 12.853 10.008 13.086L12 22l.825-.47c.41-.233 10.008-5.776 10.008-13.086C22.833 4.891 19.936 2 16.375 2Zm0 1.663a4.782 4.782 0 0 1 4.792 4.781c0 6.428-9.167 11.641-9.167 11.641s-9.167-5.213-9.167-11.64a4.782 4.782 0 0 1 4.792-4.782c1.958 0 3.633 1.447 4.375 3.118.742-1.671 2.417-3.118 4.375-3.118Z"
+                                                                   clip-rule="evenodd"/>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+                <div class="header-next__block-2__profile__item">
+                    <a href="">
+                    <span class="header-next__block-2__profile__item__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="20"
+                             height="20" viewBox="0 0 20 20"><path fill="#FFF" fill-rule="evenodd"
+                                                                   d="M17.5816667,18.3283333 L2.41916667,18.3283333 L1.7525,4.955 L4.2425,4.955 C4.1975,5.2475 4.16666667,5.545 4.16666667,5.85083333 L4.16666667,6.62583333 L5.83333333,6.62583333 L5.83333333,5.85083333 C5.83333333,5.5425 5.87166667,5.24416667 5.935,4.955 L14.065,4.955 C14.1283333,5.24416667 14.1666667,5.5425 14.1666667,5.85083333 L14.1666667,6.62583333 L15.8333333,6.62583333 L15.8333333,5.85083333 C15.8333333,5.545 15.8033333,5.2475 15.7583333,4.955 L18.2483333,4.955 L17.5816667,18.3283333 Z M10,1.67166667 C11.3283333,1.67166667 12.4991667,2.30916667 13.2625,3.2825 L6.7375,3.2825 C7.50166667,2.30916667 8.6725,1.67166667 10,1.67166667 L10,1.67166667 Z M15.2341667,3.2825 C14.2833333,1.3425 12.2975,0 10,0 C7.70333333,0 5.7175,1.3425 4.76666667,3.2825 L0,3.2825 L0.833333333,20 L19.1666667,20 L20,3.2825 L15.2341667,3.2825 Z"/>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+                <div class="header-next__block-2__profile__item">
+                    <button class="header-next__block-2__profile__item__btn">CHECKOUT</button>
+                </div>
+                <div class="header-next__block-2__profile__item">
+                    <a href="">
+                        <img src="assets/image/icons/ball.png" alt="Ball">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header-next__block-3">
+            <div class="header-next__block-3__item">
+                <a href="">
+                    <span class="header-next__block-3__item__text">christmas</span>
+                </a>
+            </div>
+            <div class="header-next__block-3__item">
+                <a href="">
+                    <span class="header-next__block-3__item__text">women</span>
+                </a>
+            </div>
+            <div class="header-next__block-3__item">
+                <a href="">
+                    <span class="header-next__block-3__item__text">men</span>
+                </a>
+            </div>
+            <div class="header-next__block-3__item">
+                <a href="">
+                    <span class="header-next__block-3__item__text">girls</span>
+                </a>
+            </div>
+            <div class="header-next__block-3__item">
+                <a href="">
+                    <span class="header-next__block-3__item__text">boys</span>
+                </a>
+            </div>
+            <div class="header-next__block-3__item">
+                <a href="">
+                    <span class="header-next__block-3__item__text">baby</span>
+                </a>
+            </div>
+            <div class="header-next__block-3__item">
+                <a href="">
+                    <span class="header-next__block-3__item__text">shoes</span>
+                </a>
+            </div>
+            <div class="header-next__block-3__item">
+                <a href="">
+                    <span class="header-next__block-3__item__text">home</span>
+                </a>
+            </div>
+            <div class="header-next__block-3__item">
+                <a href="">
+                    <span class="header-next__block-3__item__text">brand</span>
+                </a>
+            </div>
+            <div class="header-next__block-3__item">
+                <a href="">
+                    <span class="header-next__block-3__item__text">clearance</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
 </header>
 <section class="container">
+   <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam iaculis quam sit amet imperdiet. Morbi imperdiet molestie erat, ut congue quam commodo et. Aenean quam magna, suscipit a pharetra ut, aliquam eget lorem. Cras laoreet tristique magna vitae tristique. Nulla sit amet mollis ipsum. Vestibulum rutrum porta massa, non pharetra lectus placerat et. Nam vulputate blandit felis sed fermentum.
 
+In hac habitasse platea dictumst. Ut nec enim vel dolor laoreet pulvinar non in erat. Curabitur ac tempus nunc. Donec ultrices pharetra metus, sit amet tempor ligula ornare vitae. Donec volutpat, mauris ac tincidunt euismod, dui eros sollicitudin ante, ut dignissim eros arcu dignissim tellus. Aliquam in varius diam. Donec efficitur nibh eget tortor egestas, a dapibus lectus sagittis. Nunc eget ornare ligula. Nulla nulla nibh, aliquam convallis sapien vitae, sagittis tincidunt nulla. Vestibulum maximus, lacus in euismod porttitor, nibh ante pretium enim, non vulputate libero turpis fringilla lectus. Aliquam iaculis vulputate enim eget finibus.
+
+Vivamus luctus egestas blandit. Nulla facilisi. Pellentesque condimentum, justo id tempor fringilla, lectus metus euismod mi, ac commodo nunc turpis et elit. Morbi sit amet nisl felis. Duis efficitur tortor a justo varius, at facilisis lectus ullamcorper. Sed quam nibh, vehicula non enim et, sodales lobortis quam. In enim mi, blandit eget quam sit amet, volutpat laoreet lacus. Aenean ac leo non lorem dignissim suscipit id consectetur metus. Vestibulum porta pulvinar neque, vitae consequat sapien tincidunt eget. Nulla porta ipsum vel dignissim suscipit. Integer eget venenatis est. Nam et augue purus. Mauris rutrum lectus vel egestas hendrerit.
+
+Suspendisse eget libero ut nulla mollis bibendum. Donec quis lorem id sapien iaculis dignissim at ullamcorper est. Nulla massa lacus, gravida vitae sem id, hendrerit ultricies purus. Fusce placerat diam ac diam rutrum fringilla. Cras blandit enim vel sapien sodales, eget ornare erat blandit. Duis ut massa ac turpis tincidunt euismod. Phasellus commodo, nisi sit amet vehicula faucibus, justo ipsum tristique augue, nec vehicula felis elit sed nulla.
+
+Sed ac volutpat nisl. Maecenas laoreet euismod nulla, sit amet consectetur nisi egestas cursus. Praesent eu mauris quis lectus tincidunt fringilla. Praesent eget tortor quis ligula lobortis eleifend. Praesent eu diam non arcu dapibus tempus. Duis ut turpis nibh. Nulla ut finibus mi. Ut vulputate risus arcu, quis pulvinar tortor feugiat quis. Mauris accumsan mi nec mi convallis lacinia. Sed sed aliquam enim.
+
+Donec sagittis sem ligula. Integer mollis vulputate tortor, at blandit dui scelerisque a. Vestibulum eu eros at mauris mollis volutpat sed non risus. Duis ac laoreet diam. Duis ut nisi et ex pretium interdum vel finibus felis. Donec at sodales justo. Mauris interdum, dui vel venenatis blandit, orci justo finibus ipsum, in malesuada ex tortor ac leo. Aenean quis rhoncus felis, id pharetra ligula. Aenean feugiat ut metus et pretium. Proin at enim dui. Aliquam erat volutpat. Quisque non eros ac nunc commodo suscipit. Praesent vel neque sit amet magna sollicitudin blandit at in sem. Donec convallis condimentum purus, sed dignissim sem facilisis nec. Nam tempus et ante vitae pulvinar. Curabitur molestie, enim sed consectetur tempor, justo lacus tempus mi, id blandit augue sem in sem.
+
+Aliquam non tincidunt dolor. In sit amet ex sit amet libero sollicitudin egestas vel in metus. Donec non diam id nulla tempus vehicula. Suspendisse cursus tristique nulla, id dapibus libero ultrices consectetur. Sed eu aliquet turpis, consequat condimentum odio. Maecenas nec ligula a lorem posuere lobortis. Cras id arcu a lorem sodales lobortis feugiat eleifend nisl. Nulla pharetra arcu sit amet erat imperdiet, a auctor massa vulputate. Nam consectetur, tortor eget consequat mollis, leo diam dictum ex, quis porta lorem turpis at sapien. Integer posuere vestibulum imperdiet.
+
+Vestibulum id felis a est pretium mattis. Sed eu elit pharetra, imperdiet elit ac, blandit tellus. Suspendisse ut lectus et ante condimentum viverra. Nulla consequat orci eget sem porta blandit. Phasellus id purus eu odio euismod ullamcorper lacinia vitae massa. Donec quis ante id lectus maximus tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas ornare fermentum nibh ut dapibus. Nam commodo nisl eget interdum facilisis. Ut velit augue, suscipit sed quam in, elementum efficitur dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent facilisis urna ac scelerisque egestas. Nunc volutpat purus auctor ipsum viverra, id scelerisque lorem eleifend. Ut dictum turpis id blandit pellentesque. Vestibulum tincidunt justo eu quam vestibulum, at dictum quam vehicula.
+
+Etiam blandit quam sapien, non pharetra libero egestas a. Donec ac posuere est, at sodales augue. Nulla vitae eleifend nunc. Donec non porta sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam pellentesque justo ac eros maximus, quis varius orci semper. Donec sit amet magna tortor. Maecenas luctus eros euismod ante tincidunt cursus. Donec placerat mauris eu lobortis mollis.
+
+Nam non nulla sed sem ullamcorper tempor. Etiam fringilla sapien felis, at varius lectus interdum eu. Aenean elementum dolor odio, quis interdum ante finibus et. Proin ullamcorper ipsum ut sodales viverra. Morbi volutpat non tellus at viverra. Pellentesque sagittis est nec ligula tincidunt commodo quis a dui. Nam nisl risus, aliquet eget libero a, gravida tempor enim. Curabitur laoreet dapibus ex. Maecenas libero nulla, bibendum a mi a, dapibus semper augue. In tempus, turpis ornare tempus molestie, nisi nulla gravida nulla, ac aliquam nulla lectus in justo. Integer pellentesque turpis sit amet eros suscipit maximus. Aliquam porttitor tempor augue vitae venenatis.
+
+In odio elit, tincidunt eget suscipit et, suscipit quis mi. In hac habitasse platea dictumst. Aliquam vel est quis dolor pellentesque egestas vitae in lacus. Etiam in turpis suscipit, eleifend nisl in, venenatis metus. In in dignissim urna. Donec scelerisque tempor ante. Morbi et luctus enim, non lobortis tortor. Donec ac purus sed ipsum sagittis consectetur sed vel est. Praesent sed dui orci. Nam metus tortor, posuere sed viverra eu, mattis eget enim. Integer consectetur odio vitae magna rutrum, vel venenatis lacus hendrerit. In volutpat ut nibh fermentum accumsan. Maecenas id rhoncus lorem, in pharetra nisi. Mauris bibendum quam nec ipsum imperdiet dictum. Aenean tempus ipsum id leo vehicula faucibus. Duis posuere sagittis augue ac bibendum.
+
+Phasellus accumsan quam leo, eu accumsan sapien malesuada vitae. Fusce a condimentum lorem. Nunc euismod euismod turpis ut convallis. Integer ac luctus augue. Pellentesque tempor suscipit pretium. Etiam vel mi vitae massa ultrices iaculis. Phasellus pretium lorem vehicula lacus suscipit, in mattis diam dictum. Ut justo nibh, aliquam vitae pharetra sit amet, convallis in tortor. Suspendisse vitae placerat diam, non auctor lorem. Etiam vel magna rutrum, aliquet nibh nec, maximus dui. Cras posuere quam sit amet neque eleifend scelerisque. Nulla placerat, metus a pharetra fringilla, leo enim molestie metus, sit amet faucibus purus metus ac arcu. Nam et viverra eros.</span>
+    <div class="timer"></div>
+    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam iaculis quam sit amet imperdiet. Morbi imperdiet molestie erat, ut congue quam commodo et. Aenean quam magna, suscipit a pharetra ut, aliquam eget lorem. Cras laoreet tristique magna vitae tristique. Nulla sit amet mollis ipsum. Vestibulum rutrum porta massa, non pharetra lectus placerat et. Nam vulputate blandit felis sed fermentum.
+
+In hac habitasse platea dictumst. Ut nec enim vel dolor laoreet pulvinar non in erat. Curabitur ac tempus nunc. Donec ultrices pharetra metus, sit amet tempor ligula ornare vitae. Donec volutpat, mauris ac tincidunt euismod, dui eros sollicitudin ante, ut dignissim eros arcu dignissim tellus. Aliquam in varius diam. Donec efficitur nibh eget tortor egestas, a dapibus lectus sagittis. Nunc eget ornare ligula. Nulla nulla nibh, aliquam convallis sapien vitae, sagittis tincidunt nulla. Vestibulum maximus, lacus in euismod porttitor, nibh ante pretium enim, non vulputate libero turpis fringilla lectus. Aliquam iaculis vulputate enim eget finibus.
+
+Vivamus luctus egestas blandit. Nulla facilisi. Pellentesque condimentum, justo id tempor fringilla, lectus metus euismod mi, ac commodo nunc turpis et elit. Morbi sit amet nisl felis. Duis efficitur tortor a justo varius, at facilisis lectus ullamcorper. Sed quam nibh, vehicula non enim et, sodales lobortis quam. In enim mi, blandit eget quam sit amet, volutpat laoreet lacus. Aenean ac leo non lorem dignissim suscipit id consectetur metus. Vestibulum porta pulvinar neque, vitae consequat sapien tincidunt eget. Nulla porta ipsum vel dignissim suscipit. Integer eget venenatis est. Nam et augue purus. Mauris rutrum lectus vel egestas hendrerit.
+
+Suspendisse eget libero ut nulla mollis bibendum. Donec quis lorem id sapien iaculis dignissim at ullamcorper est. Nulla massa lacus, gravida vitae sem id, hendrerit ultricies purus. Fusce placerat diam ac diam rutrum fringilla. Cras blandit enim vel sapien sodales, eget ornare erat blandit. Duis ut massa ac turpis tincidunt euismod. Phasellus commodo, nisi sit amet vehicula faucibus, justo ipsum tristique augue, nec vehicula felis elit sed nulla.
+
+Sed ac volutpat nisl. Maecenas laoreet euismod nulla, sit amet consectetur nisi egestas cursus. Praesent eu mauris quis lectus tincidunt fringilla. Praesent eget tortor quis ligula lobortis eleifend. Praesent eu diam non arcu dapibus tempus. Duis ut turpis nibh. Nulla ut finibus mi. Ut vulputate risus arcu, quis pulvinar tortor feugiat quis. Mauris accumsan mi nec mi convallis lacinia. Sed sed aliquam enim.
+
+Donec sagittis sem ligula. Integer mollis vulputate tortor, at blandit dui scelerisque a. Vestibulum eu eros at mauris mollis volutpat sed non risus. Duis ac laoreet diam. Duis ut nisi et ex pretium interdum vel finibus felis. Donec at sodales justo. Mauris interdum, dui vel venenatis blandit, orci justo finibus ipsum, in malesuada ex tortor ac leo. Aenean quis rhoncus felis, id pharetra ligula. Aenean feugiat ut metus et pretium. Proin at enim dui. Aliquam erat volutpat. Quisque non eros ac nunc commodo suscipit. Praesent vel neque sit amet magna sollicitudin blandit at in sem. Donec convallis condimentum purus, sed dignissim sem facilisis nec. Nam tempus et ante vitae pulvinar. Curabitur molestie, enim sed consectetur tempor, justo lacus tempus mi, id blandit augue sem in sem.
+
+Aliquam non tincidunt dolor. In sit amet ex sit amet libero sollicitudin egestas vel in metus. Donec non diam id nulla tempus vehicula. Suspendisse cursus tristique nulla, id dapibus libero ultrices consectetur. Sed eu aliquet turpis, consequat condimentum odio. Maecenas nec ligula a lorem posuere lobortis. Cras id arcu a lorem sodales lobortis feugiat eleifend nisl. Nulla pharetra arcu sit amet erat imperdiet, a auctor massa vulputate. Nam consectetur, tortor eget consequat mollis, leo diam dictum ex, quis porta lorem turpis at sapien. Integer posuere vestibulum imperdiet.
+
+Vestibulum id felis a est pretium mattis. Sed eu elit pharetra, imperdiet elit ac, blandit tellus. Suspendisse ut lectus et ante condimentum viverra. Nulla consequat orci eget sem porta blandit. Phasellus id purus eu odio euismod ullamcorper lacinia vitae massa. Donec quis ante id lectus maximus tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas ornare fermentum nibh ut dapibus. Nam commodo nisl eget interdum facilisis. Ut velit augue, suscipit sed quam in, elementum efficitur dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent facilisis urna ac scelerisque egestas. Nunc volutpat purus auctor ipsum viverra, id scelerisque lorem eleifend. Ut dictum turpis id blandit pellentesque. Vestibulum tincidunt justo eu quam vestibulum, at dictum quam vehicula.
+
+Etiam blandit quam sapien, non pharetra libero egestas a. Donec ac posuere est, at sodales augue. Nulla vitae eleifend nunc. Donec non porta sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam pellentesque justo ac eros maximus, quis varius orci semper. Donec sit amet magna tortor. Maecenas luctus eros euismod ante tincidunt cursus. Donec placerat mauris eu lobortis mollis.
+
+Nam non nulla sed sem ullamcorper tempor. Etiam fringilla sapien felis, at varius lectus interdum eu. Aenean elementum dolor odio, quis interdum ante finibus et. Proin ullamcorper ipsum ut sodales viverra. Morbi volutpat non tellus at viverra. Pellentesque sagittis est nec ligula tincidunt commodo quis a dui. Nam nisl risus, aliquet eget libero a, gravida tempor enim. Curabitur laoreet dapibus ex. Maecenas libero nulla, bibendum a mi a, dapibus semper augue. In tempus, turpis ornare tempus molestie, nisi nulla gravida nulla, ac aliquam nulla lectus in justo. Integer pellentesque turpis sit amet eros suscipit maximus. Aliquam porttitor tempor augue vitae venenatis.
+
+In odio elit, tincidunt eget suscipit et, suscipit quis mi. In hac habitasse platea dictumst. Aliquam vel est quis dolor pellentesque egestas vitae in lacus. Etiam in turpis suscipit, eleifend nisl in, venenatis metus. In in dignissim urna. Donec scelerisque tempor ante. Morbi et luctus enim, non lobortis tortor. Donec ac purus sed ipsum sagittis consectetur sed vel est. Praesent sed dui orci. Nam metus tortor, posuere sed viverra eu, mattis eget enim. Integer consectetur odio vitae magna rutrum, vel venenatis lacus hendrerit. In volutpat ut nibh fermentum accumsan. Maecenas id rhoncus lorem, in pharetra nisi. Mauris bibendum quam nec ipsum imperdiet dictum. Aenean tempus ipsum id leo vehicula faucibus. Duis posuere sagittis augue ac bibendum.
+
+Phasellus accumsan quam leo, eu accumsan sapien malesuada vitae. Fusce a condimentum lorem. Nunc euismod euismod turpis ut convallis. Integer ac luctus augue. Pellentesque tempor suscipit pretium. Etiam vel mi vitae massa ultrices iaculis. Phasellus pretium lorem vehicula lacus suscipit, in mattis diam dictum. Ut justo nibh, aliquam vitae pharetra sit amet, convallis in tortor. Suspendisse vitae placerat diam, non auctor lorem. Etiam vel magna rutrum, aliquet nibh nec, maximus dui. Cras posuere quam sit amet neque eleifend scelerisque. Nulla placerat, metus a pharetra fringilla, leo enim molestie metus, sit amet faucibus purus metus ac arcu. Nam et viverra eros.</span>
+    <button onclick="scrollToTop()">Scroll to top</button>
 </section>
-<footer>
+<footer class="main-footer">
     <div class="footer-rakuten">
 
         <div class="footer-rakuten-block-1">
@@ -181,13 +367,17 @@
                         </span>
                     </div>
                 </a>
-            </div><div class="rakuten-block-1__item">
+            </div>
+            <div class="rakuten-block-1__item">
                 <a href="">
                     <div class="rakuten-block-1__item__content">
                     <span id="rakuten-club-2">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 884 405"
                              preserveAspectRatio="xMinYMin meet"><rect fill="none" x=".16" width="883.57"
-                                                                       height="404.91" rx="18.34"/><path fill="#777" d="M237 154.52Q231.62 131 216.86 121t-38.54-10q-16.81 0-29 6.66a58.32 58.32 0 00-20 17.92 78.82 78.82 0 00-11.64 26 125.91 125.91 0 00-3.75 31.11 140.72 140.72 0 003.24 30.21 79.83 79.83 0 0010.73 26.5 56.64 56.64 0 0020.18 18.82q12.66 7.17 31.81 7.16a59.48 59.48 0 0021.73-3.83 54.38 54.38 0 0017.2-10.63 61.73 61.73 0 0012.42-16 80.42 80.42 0 007.63-20.23h18.36a114 114 0 01-9 25.22A70.12 70.12 0 01209 285q-13.84 5.24-32.46 5.25-21.48 0-36.73-7.82a69.44 69.44 0 01-25-21.12 88.12 88.12 0 01-14.09-30.84 152.38 152.38 0 01-4.4-37.26q0-26.37 6.6-44.8t18.23-30.08a68.94 68.94 0 0127.42-16.9A108.45 108.45 0 01183 96.15a91.49 91.49 0 0126.51 3.71A65.55 65.55 0 01231.22 111a60.62 60.62 0 0115.52 18.31 76.07 76.07 0 018.4 25.21zM281.46 288.5V95.12h16.28V288.5zM417 149.37h16.29V288.5H417v-19.34c-2.17 2.52-4.61 5.1-7.32 7.79a56.06 56.06 0 01-9.36 7.39A53.71 53.71 0 01388 290a53.13 53.13 0 01-16.28 2.28q-14.12 0-23.61-3.9a38.4 38.4 0 01-15.33-10.87 42.5 42.5 0 01-8.41-16.25 74.88 74.88 0 01-2.58-20.26v-91.63h16.29v91.32q0 18 8.41 27.53t27.68 9.53a40.55 40.55 0 0018-3.89A37.44 37.44 0 00405.64 263a51.75 51.75 0 008.42-16.66 71.51 71.51 0 003-21.21zM473.66 288.5h-16.28V95.12h16.28v76.55a50.17 50.17 0 0121.57-19.48 65.41 65.41 0 0128.63-6.57q16 0 27.81 6a57 57 0 0119.54 16.11 68.9 68.9 0 0111.53 23.5 102.21 102.21 0 013.8 27.93 112.17 112.17 0 01-3.54 28.78 62.65 62.65 0 01-11.26 23.24 53.76 53.76 0 01-19.67 15.44q-11.94 5.64-29 5.64a53.45 53.45 0 01-13.84-1.88A65.26 65.26 0 01495.5 285a54.5 54.5 0 01-12.21-8.73 43.63 43.63 0 01-9.09-12.22h-.54zm0-70.1a84.83 84.83 0 003.11 23.5 57.2 57.2 0 009.09 18.8 42.72 42.72 0 0014.93 12.49 44.15 44.15 0 0020.35 4.56 48.91 48.91 0 0019-3.62 43.47 43.47 0 0015.2-10.61 49.43 49.43 0 0010.17-17 67.51 67.51 0 003.66-23.24 90.17 90.17 0 00-2.17-24.62 58.22 58.22 0 00-8.68-20A42.74 42.74 0 00543 165.09q-9.36-5-21.85-5a41.78 41.78 0 00-19.94 4.7 45.82 45.82 0 00-14.92 12.62 57.67 57.67 0 00-9.38 18.59 75.85 75.85 0 00-3.25 22.4z"/><g fill="#777"><path d="M634.64 335.67l-32.1-26.93h225.08l-192.98 26.93zM671.19 288.54v-59.66h25.86l44.76 59.66h45.76l-54.09-72a66.31 66.31 0 00-38.43-120.37h-60.41v192.37zm0-155.85h23.86a29.82 29.82 0 110 59.64h-23.86z"/></g>
+                                                                       height="404.91" rx="18.34"/><path fill="#777"
+                                                                                                         d="M237 154.52Q231.62 131 216.86 121t-38.54-10q-16.81 0-29 6.66a58.32 58.32 0 00-20 17.92 78.82 78.82 0 00-11.64 26 125.91 125.91 0 00-3.75 31.11 140.72 140.72 0 003.24 30.21 79.83 79.83 0 0010.73 26.5 56.64 56.64 0 0020.18 18.82q12.66 7.17 31.81 7.16a59.48 59.48 0 0021.73-3.83 54.38 54.38 0 0017.2-10.63 61.73 61.73 0 0012.42-16 80.42 80.42 0 007.63-20.23h18.36a114 114 0 01-9 25.22A70.12 70.12 0 01209 285q-13.84 5.24-32.46 5.25-21.48 0-36.73-7.82a69.44 69.44 0 01-25-21.12 88.12 88.12 0 01-14.09-30.84 152.38 152.38 0 01-4.4-37.26q0-26.37 6.6-44.8t18.23-30.08a68.94 68.94 0 0127.42-16.9A108.45 108.45 0 01183 96.15a91.49 91.49 0 0126.51 3.71A65.55 65.55 0 01231.22 111a60.62 60.62 0 0115.52 18.31 76.07 76.07 0 018.4 25.21zM281.46 288.5V95.12h16.28V288.5zM417 149.37h16.29V288.5H417v-19.34c-2.17 2.52-4.61 5.1-7.32 7.79a56.06 56.06 0 01-9.36 7.39A53.71 53.71 0 01388 290a53.13 53.13 0 01-16.28 2.28q-14.12 0-23.61-3.9a38.4 38.4 0 01-15.33-10.87 42.5 42.5 0 01-8.41-16.25 74.88 74.88 0 01-2.58-20.26v-91.63h16.29v91.32q0 18 8.41 27.53t27.68 9.53a40.55 40.55 0 0018-3.89A37.44 37.44 0 00405.64 263a51.75 51.75 0 008.42-16.66 71.51 71.51 0 003-21.21zM473.66 288.5h-16.28V95.12h16.28v76.55a50.17 50.17 0 0121.57-19.48 65.41 65.41 0 0128.63-6.57q16 0 27.81 6a57 57 0 0119.54 16.11 68.9 68.9 0 0111.53 23.5 102.21 102.21 0 013.8 27.93 112.17 112.17 0 01-3.54 28.78 62.65 62.65 0 01-11.26 23.24 53.76 53.76 0 01-19.67 15.44q-11.94 5.64-29 5.64a53.45 53.45 0 01-13.84-1.88A65.26 65.26 0 01495.5 285a54.5 54.5 0 01-12.21-8.73 43.63 43.63 0 01-9.09-12.22h-.54zm0-70.1a84.83 84.83 0 003.11 23.5 57.2 57.2 0 009.09 18.8 42.72 42.72 0 0014.93 12.49 44.15 44.15 0 0020.35 4.56 48.91 48.91 0 0019-3.62 43.47 43.47 0 0015.2-10.61 49.43 49.43 0 0010.17-17 67.51 67.51 0 003.66-23.24 90.17 90.17 0 00-2.17-24.62 58.22 58.22 0 00-8.68-20A42.74 42.74 0 00543 165.09q-9.36-5-21.85-5a41.78 41.78 0 00-19.94 4.7 45.82 45.82 0 00-14.92 12.62 57.67 57.67 0 00-9.38 18.59 75.85 75.85 0 00-3.25 22.4z"/><g
+                                fill="#777"><path
+                                d="M634.64 335.67l-32.1-26.93h225.08l-192.98 26.93zM671.19 288.54v-59.66h25.86l44.76 59.66h45.76l-54.09-72a66.31 66.31 0 00-38.43-120.37h-60.41v192.37zm0-155.85h23.86a29.82 29.82 0 110 59.64h-23.86z"/></g>
                         </svg>
                     </span>
                         <span class="rakuten-block-1__item__content__text">
@@ -270,13 +460,546 @@
             </div>
         </div>
 
-        <div class="footer-rakuten-block-3"></div>
-        <div class="footer-rakuten-block-4"></div>
-        <div class="footer-rakuten-block-5"></div>
-        <div class="footer-rakuten-block-6"></div>
-        <div class="footer-rakuten-block-7"></div>
+        <div class="footer-rakuten-block-3">
+            <div class="footer-rakuten-block-3__socials">
+                <div class="rakuten-block-3__socials__item">
+                    <a href="">
+                    <span class="rakuten-block-3__socials__item__content__img">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><circle cx="256" cy="256"
+                                                                                              fill="#0077B5" r="256"/>
+                            <path d="M186.8 371.7h-51.9V204.1h51.9v167.6zm-26.2-189.5c-16.9 0-30.7-13.8-30.7-30.9 0-17.1 13.7-30.9 30.7-30.9 16.9 0 30.7 13.8 30.7 30.9 0 17-13.8 30.9-30.7 30.9zm220.6 189.5h-51.6v-88c0-24.1-9.2-37.6-28.2-37.6-20.8 0-31.6 14-31.6 37.6v88H220V204.1h49.8v22.6s15-27.7 50.5-27.7 61 21.7 61 66.6c-.1 44.9-.1 106.1-.1 106.1z"
+                                  fill="#FFF"/>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+                <div class="rakuten-block-3__socials__item">
+                    <a href="">
+                    <span class="rakuten-block-3__socials__item__content__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                             class="_f-socialIcons-7efa81 _f-db-05e0c2 _f-overflow-hidden-70205b" width="34" height="34"
+                             data-qa="svg-icon"><defs><symbol id="facebookIcon.svg" xmlns="http://www.w3.org/2000/svg"
+                                                              viewBox="0 0 512 512"><g fill-rule="nonzero" fill="none"><circle
+                                cx="256" cy="256" fill="#3B5998" r="256"></circle><path
+                                d="M301.6 151.2h36.3V97h-51.4c-29.6 0-68.1 19-68.1 74.2v43h-49.1v56.1h49.1v146H277v-146h48.8l8.1-56.1H277v-35.7c0-18.4 9-27.3 24.6-27.3z"
+                                fill="#FFFFFF"></path></g></symbol></defs><use xlink:href="#facebookIcon.svg"></use>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+                <div class="rakuten-block-3__socials__item">
+                    <a href="">
+                    <span class="rakuten-block-3__socials__item__content__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                             class="_f-socialIcons-7efa81 _f-db-05e0c2 _f-overflow-hidden-70205b" width="34"
+                             height="34" data-qa="svg-icon"><defs><symbol id="twitterIcon.svg"
+                                                                          xmlns="http://www.w3.org/2000/svg"
+                                                                          viewBox="0 0 512 512"><g fill="none"><circle
+                                cx="256" cy="256" r="256" fill="#000"></circle><path
+                                d="M347.135 128h45.831l-100.63 113.303L409.904 395h-92.261l-72.234-93.401L162.713 395h-45.831l106.607-121.184L110.904 128h94.552l65.26 85.322L347.135 128zm-16.041 240.399H356.5L192.105 153.616h-27.3l166.289 214.783z"
+                                fill="#FFFFFF"></path></g></symbol></defs><use xlink:href="#twitterIcon.svg"></use>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+                <div class="rakuten-block-3__socials__item">
+                    <a href="">
+                    <span class="rakuten-block-3__socials__item__content__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                             class="_f-socialIcons-7efa81 _f-db-05e0c2 _f-overflow-hidden-70205b" width="34"
+                             height="34" data-qa="svg-icon"><defs><symbol id="instagramIcon.svg"
+                                                                          xmlns="http://www.w3.org/2000/svg"
+                                                                          viewBox="0 0 512 512"><radialGradient
+                                cx="51.992" cy="13.509"
+                                gradientTransform="matrix(.0566 -1.08 .918 .04811 -5.988 520.557)"
+                                gradientUnits="userSpaceOnUse" id="a" r="684.445"><stop offset="0"
+                                                                                        stop-color="#fed576"></stop><stop
+                                offset=".263" stop-color="#f47133"></stop><stop offset=".609"
+                                                                                stop-color="#bc3081"></stop><stop
+                                offset="1" stop-color="#4c63d2"></stop></radialGradient><path
+                                d="M0 249.5v13.8C3.6 395.7 110.2 502 237.1 512h39C403.7 501.9 508.5 394.7 512 263.1v-13.6C508.5 115.6 400.1 7 269.4.3 128.8-6.8 3.9 106 0 249.5z"
+                                fill="url(&quot;#a&quot;)"></path><g><g fill="#FFFFFF"><path
+                                d="M257.2 128.6c40.8 0 45.6.1 61.8.9 14.9.6 22.9 3.2 28.3 5.3 7.1 2.8 12.2 6.2 17.5 11.6 5.3 5.4 8.7 10.6 11.5 17.8 2.1 5.5 4.5 13.7 5.3 28.9.8 16.4.9 21.3.9 62.8s-.1 46.4-.9 62.8c-.6 15.1-3.1 23.4-5.3 28.9-2.8 7.2-6.1 12.4-11.5 17.8-5.3 5.4-10.4 8.8-17.5 11.6-5.4 2.2-13.5 4.7-28.3 5.3-16.1.8-21 .9-61.8.9s-45.6-.1-61.8-.9c-14.9-.6-22.9-3.2-28.3-5.3-7.1-2.8-12.2-6.2-17.5-11.6s-8.7-10.6-11.5-17.8c-2.1-5.5-4.5-13.7-5.3-28.9-.8-16.4-.9-21.3-.9-62.8s.1-46.4.9-62.8c.6-15.1 3.1-23.4 5.3-28.9 2.8-7.2 6.1-12.4 11.5-17.8 5.3-5.4 10.4-8.8 17.5-11.6 5.4-2.2 13.5-4.7 28.3-5.3 16.1-.7 21-.9 61.8-.9m0-28c-41.5 0-46.7.2-62.9 1s-27.4 3.4-37.1 7.2c-10.1 4-18.6 9.3-27 18-8.5 8.7-13.7 17.3-17.6 27.6-3.8 9.8-6.4 21.2-7.1 37.7-.8 16.5-.9 21.8-.9 64s.2 47.5.9 64c.8 16.5 3.4 27.8 7.1 37.7 3.9 10.2 9.1 18.9 17.6 27.6s17 14 27 18c9.7 3.9 20.9 6.5 37.1 7.2 16.3.8 21.5 1 62.9 1s46.7-.2 62.9-1c16.2-.8 27.4-3.4 37.1-7.2 10.1-4 18.6-9.3 27-18 8.5-8.7 13.7-17.3 17.6-27.6 3.8-9.8 6.4-21.2 7.1-37.7.8-16.5.9-21.8.9-64s-.2-47.5-.9-64c-.8-16.5-3.4-27.8-7.1-37.7-3.9-10.2-9.1-18.9-17.6-27.6s-17-14-27-18c-9.7-3.9-20.9-6.5-37.1-7.2-16.2-.8-21.5-1-62.9-1z"
+                                fill="#FFFFFF"></path><path
+                                d="M257.2 176.2c-43.4 0-78.4 35.7-78.4 79.8s35.1 79.8 78.4 79.8 78.4-35.7 78.4-79.8-35.1-79.8-78.4-79.8zm0 131.6c-28.1 0-50.9-23.1-50.9-51.8s22.8-51.8 50.9-51.8 50.9 23.1 50.9 51.8c0 28.7-22.8 51.8-50.9 51.8z"
+                                fill="#FFFFFF"></path><ellipse cx="338.7" cy="173" rx="18.3" ry="18.6"
+                                                               fill="#FFFFFF"></ellipse></g></g></symbol></defs><use
+                                xlink:href="#instagramIcon.svg"></use>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+                <div class="rakuten-block-3__socials__item">
+                    <a href="">
+                    <span class="rakuten-block-3__socials__item__content__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                             class="_f-socialIcons-7efa81 _f-db-05e0c2 _f-overflow-hidden-70205b" width="34"
+                             height="34" data-qa="svg-icon"><defs><symbol id="youtubeIcon.svg"
+                                                                          xmlns="http://www.w3.org/2000/svg"
+                                                                          viewBox="0 0 512 512"><path
+                                d="M512 256c0 141.4-114.6 256-256 256S0 397.4 0 256 114.6 0 256 0s256 114.6 256 256z"
+                                fill="#CD201F"></path><path
+                                d="M391.1 194.6c-2.3-19.9-7.1-25.7-10.5-28.4-5.4-4.2-15.2-5.7-28.3-6.6-21-1.4-56.7-2.3-95.2-2.3-38.6 0-74.2.8-95.2 2.3-13.1.9-22.9 2.4-28.3 6.6-3.4 2.7-8.1 8.5-10.5 28.4-3.4 28.7-3.4 94.1 0 122.8 2.4 19.9 7.1 25.7 10.5 28.4 5.4 4.2 15.2 5.7 28.3 6.6 21 1.4 56.6 2.3 95.2 2.3s74.2-.9 95.2-2.3c13.1-.9 22.9-2.4 28.3-6.6 3.4-2.6 8.1-8.5 10.5-28.4 3.4-28.7 3.4-94.1 0-122.8zm-167 104.3V213l82.4 42.9-82.4 43z"
+                                fill="#FFFFFF"></path></symbol></defs><use xlink:href="#youtubeIcon.svg"></use>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+                <div class="rakuten-block-3__socials__item">
+                    <a href="">
+                    <span class="rakuten-block-3__socials__item__content__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                             class="_f-socialIcons-7efa81 _f-db-05e0c2 _f-overflow-hidden-70205b" width="34"
+                             height="34" data-qa="svg-icon"><defs><symbol id="pinterestIcon.svg"
+                                                                          xmlns="http://www.w3.org/2000/svg"
+                                                                          viewBox="0 0 512 512"><g fill-rule="nonzero"
+                                                                                                   fill="none"><circle
+                                cx="256" cy="256" fill="#BD081C" r="256"></circle><path
+                                d="M280.8 323.2c-18.9 0-36.6-10.2-42.6-21.8 0 0-10.1 40.2-12.3 48-7.6 27.4-29.8 54.9-31.5 57.1-1.2 1.6-3.9 1.1-4.1-1-.5-3.5-6.1-38.1.5-66.3 3.3-14.2 22.5-95.1 22.5-95.1s-5.6-11.1-5.6-27.6c0-25.9 15-45.2 33.7-45.2 15.9 0 23.5 11.9 23.5 26.2 0 16-10.2 39.8-15.4 61.9-4.4 18.5 9.3 33.6 27.5 33.6 33.1 0 55.3-42.5 55.3-92.8 0-38.3-25.8-66.9-72.6-66.9-52.9 0-86 39.5-86 83.6 0 15.2 4.5 25.9 11.5 34.2 3.2 3.8 3.7 5.4 2.5 9.7-.9 3.2-2.8 11-3.6 14-1.2 4.4-4.8 6-8.8 4.4-24.4-9.9-35.7-36.7-35.7-66.7 0-49.6 41.8-109 124.8-109 66.7 0 110.5 48.2 110.5 100 .1 68.6-38 119.7-94.1 119.7z"
+                                fill="#FFFFFF"></path></g></symbol></defs><use xlink:href="#pinterestIcon.svg"></use>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-rakuten-block-3__cards">
+                    <span class="rakuten-block-3__cards__item__content__img">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000.046 323.653">
+                            <g fill="none" fill-rule="evenodd"><path fill="#00579f"
+                                                                     d="M433.352 318.984h-81.01l50.67-313.305h81.006zM727.023 13.339c-15.978-6.34-41.322-13.34-72.66-13.34-80 0-136.336 42.661-136.682 103.653-.664 45 40.335 69.994 71 84.998 31.341 15.332 41.995 25.34 41.995 39.006-.319 20.989-25.326 30.664-48.65 30.664-32.343 0-49.673-4.988-76.009-16.666l-10.667-5.005-11.337 70.33c19 8.656 54.006 16.337 90.35 16.674 85.002 0 140.34-42 140.996-106.997.324-35.666-21.326-62.994-68-85.325-28.334-14.336-45.686-24.002-45.686-38.67.332-13.334 14.677-26.991 46.661-26.991 26.336-.67 45.686 5.661 60.345 11.996l7.327 3.327 11.017-67.654zM834.694 207.991c6.671-17.999 32.343-87.66 32.343-87.66-.337.669 6.658-18.331 10.658-29.995l5.662 26.996s15.34 74.995 18.672 90.66h-67.335zM934.69 5.68H872.03c-19.323 0-34.004 5.662-42.341 25.995L709.357 318.98h85.002s13.994-38.669 17.002-46.997h104.011c2.326 11 9.666 46.997 9.666 46.997h75.008L934.691 5.68zM284.678 5.68l-79.336 213.643-8.67-43.33C182.006 125.997 136.005 71.677 84.67 44.667l72.669 273.985h85.667L370.34 5.679h-85.662z"/><path
+                                    d="M131.672 5.68H1.333L0 12.01c101.672 25.999 169.008 88.67 196.673 163.997L168.339 32.015c-4.665-20.01-19-25.676-36.667-26.336z"
+                                    fill="#faa61a"/></g>
+                        </svg>
+                    </span>
+                <span class="rakuten-block-3__cards__item__content__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                             class="_f-db-05e0c2 _f-overflow-hidden-70205b" width="34" height="34" data-qa="svg-icon">
+                            <defs><symbol id="mastercardIcon.svg" xmlns="http://www.w3.org/2000/svg"
+                                          viewBox="0 0 204 204">
+                                <path d="M195.929 153.396v.405h.373c.083 0 .153-.02.204-.051s.075-.086.075-.153-.028-.118-.075-.149-.122-.051-.204-.051zm.377-.283c.193 0 .342.043.448.13a.43.43 0 01.157.354c0 .126-.039.228-.126.31s-.2.13-.358.149l.495.57h-.385l-.46-.566h-.149v.566h-.322v-1.513zm-.098 2.036c.177 0 .342-.035.491-.102a1.29 1.29 0 00.401-.271 1.268 1.268 0 00.369-.9c0-.177-.035-.342-.098-.495s-.157-.291-.271-.405a1.29 1.29 0 00-.401-.271 1.253 1.253 0 00-.491-.094 1.31 1.31 0 00-.499.094 1.28 1.28 0 00-.409.271 1.23 1.23 0 00-.267.405c-.067.153-.098.318-.098.495s.031.342.098.495a1.19 1.19 0 00.267.405 1.28 1.28 0 00.409.271c.153.067.322.102.499.102m0-2.904a1.68 1.68 0 011.175.48 1.6 1.6 0 01.354.519c.086.196.13.409.13.633s-.043.436-.13.633a1.69 1.69 0 01-.354.519c-.153.145-.326.263-.527.35s-.417.13-.648.13-.452-.043-.656-.13-.381-.204-.53-.35a1.69 1.69 0 01-.354-.519c-.086-.196-.13-.409-.13-.633s.043-.436.13-.633a1.6 1.6 0 01.354-.519 1.58 1.58 0 01.53-.35c.204-.086.42-.13.656-.13m-153.102-5.828c0-2.884 1.89-5.254 4.979-5.254 2.951 0 4.943 2.267 4.943 5.254s-1.992 5.254-4.943 5.254c-3.089 0-4.979-2.37-4.979-5.254m13.286 0v-8.205h-3.568v1.992c-1.132-1.478-2.849-2.405-5.183-2.405-4.602 0-8.209 3.607-8.209 8.618s3.607 8.618 8.209 8.618c2.334 0 4.051-.927 5.183-2.405v1.992h3.568zm120.577 0c0-2.884 1.89-5.254 4.979-5.254 2.955 0 4.943 2.267 4.943 5.254s-1.988 5.254-4.943 5.254c-3.089 0-4.979-2.37-4.979-5.254m13.29 0v-14.795h-3.572v8.582c-1.132-1.478-2.849-2.405-5.183-2.405-4.602 0-8.209 3.607-8.209 8.618s3.607 8.618 8.209 8.618c2.334 0 4.051-.927 5.183-2.405v1.992h3.572zm-89.576-5.423c2.299 0 3.776 1.442 4.154 3.981h-8.515c.381-2.37 1.819-3.981 4.362-3.981m.071-3.195c-4.81 0-8.174 3.501-8.174 8.618 0 5.219 3.501 8.618 8.413 8.618 2.472 0 4.735-.617 6.728-2.299l-1.749-2.645c-1.375 1.096-3.128 1.717-4.774 1.717-2.299 0-4.393-1.065-4.908-4.02h12.186c.035-.444.071-.892.071-1.371-.035-5.116-3.195-8.618-7.792-8.618m43.084 8.618c0-2.884 1.89-5.254 4.979-5.254 2.951 0 4.943 2.267 4.943 5.254s-1.992 5.254-4.943 5.254c-3.089 0-4.979-2.37-4.979-5.254m13.286 0v-8.205h-3.568v1.992c-1.136-1.478-2.849-2.405-5.183-2.405-4.602 0-8.209 3.607-8.209 8.618s3.607 8.618 8.209 8.618c2.334 0 4.048-.927 5.183-2.405v1.992h3.568zm-33.437 0c0 4.979 3.466 8.618 8.755 8.618 2.472 0 4.118-.55 5.902-1.957l-1.713-2.884c-1.34.963-2.747 1.478-4.295 1.478-2.849-.035-4.943-2.094-4.943-5.254s2.094-5.219 4.943-5.254c1.548 0 2.955.515 4.295 1.478l1.713-2.884c-1.784-1.407-3.431-1.957-5.902-1.957-5.289 0-8.755 3.639-8.755 8.618m46.004-8.618c-2.059 0-3.399.963-4.327 2.405v-1.992h-3.537v16.41h3.572v-9.199c0-2.715 1.167-4.224 3.501-4.224.723 0 1.478.102 2.232.413l1.1-3.364c-.79-.31-1.819-.448-2.542-.448m-95.651 1.717c-1.717-1.132-4.083-1.717-6.692-1.717-4.158 0-6.834 1.992-6.834 5.254 0 2.676 1.992 4.327 5.663 4.841l1.686.24c1.957.275 2.88.79 2.88 1.717 0 1.269-1.305 1.992-3.741 1.992-2.472 0-4.256-.79-5.458-1.717l-1.682 2.778c1.957 1.442 4.429 2.13 7.105 2.13 4.739 0 7.486-2.232 7.486-5.356 0-2.884-2.161-4.393-5.733-4.908l-1.682-.244c-1.544-.204-2.782-.511-2.782-1.611 0-1.202 1.167-1.922 3.124-1.922 2.094 0 4.122.79 5.116 1.407zm46.039-1.717c-2.059 0-3.399.963-4.323 2.405v-1.992h-3.537v16.41h3.568v-9.199c0-2.715 1.167-4.224 3.501-4.224.723 0 1.478.102 2.232.413l1.1-3.364c-.79-.31-1.819-.448-2.542-.448m-30.451.413h-5.835v-4.979h-3.607v4.979h-3.328v3.262h3.328v7.486c0 3.808 1.478 6.075 5.698 6.075 1.548 0 3.332-.479 4.464-1.269l-1.03-3.057c-1.065.617-2.232.927-3.159.927-1.784 0-2.366-1.1-2.366-2.747v-7.415h5.835zm-53.353 16.41v-10.3c0-3.879-2.472-6.488-6.456-6.523-2.094-.035-4.256.617-5.769 2.92-1.132-1.819-2.916-2.92-5.423-2.92-1.753 0-3.466.515-4.806 2.436v-2.024h-3.572v16.41h3.603v-9.097c0-2.849 1.58-4.362 4.02-4.362 2.37 0 3.568 1.544 3.568 4.327v9.132h3.607v-9.097c0-2.849 1.647-4.362 4.016-4.362 2.436 0 3.603 1.544 3.603 4.327v9.132z"
+                                      fill="#231F20"></path><path
+                                    d="M198.13 100.048v-2.397h-.625l-.723 1.647-.719-1.647h-.629v2.397h.444V98.24l.676 1.56h.46l.676-1.564v1.812zm-3.965 0V98.06h.802v-.405h-2.043v.405h.802v1.988z"
+                                    fill="#F79410"></path><path d="M127.082 110.359H73.004V13.171h54.078z"
+                                                                fill="#FF5F00"></path><path
+                                    d="M76.469 61.757c0-19.715 9.231-37.276 23.605-48.594A61.542 61.542 0 0061.878-.052C27.745-.052.077 27.621.077 61.757s27.668 61.809 61.801 61.809a61.542 61.542 0 0038.196-13.215C85.699 99.034 76.469 81.472 76.469 61.757"
+                                    fill="#EB001B"></path><path
+                                    d="M200.016 61.757c0 34.137-27.668 61.809-61.801 61.809a61.562 61.562 0 01-38.2-13.215c14.378-11.317 23.609-28.879 23.609-48.594s-9.231-37.276-23.609-48.594a61.556 61.556 0 0138.2-13.215c34.133 0 61.801 27.672 61.801 61.809"
+                                    fill="#F79E1B"></path></symbol></defs><use xlink:href="#mastercardIcon.svg"></use>
+                        </svg>
+                    </span>
+                <span class="rakuten-block-3__cards__item__content__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                             class="_f-db-05e0c2 _f-overflow-hidden-70205b" width="54" height="30" data-qa="svg-icon">
+                            <defs><symbol id="klarna.svg" viewBox="0 0 45 25" xmlns="http://www.w3.org/2000/svg">
+                                <g fill-rule="nonzero" fill="none"><rect width="45" height="25" rx="4.321"
+                                                                         fill="#FFB3C7"></rect><path
+                                        d="M40.794 14.646a1.07 1.07 0 00-1.066 1.076 1.07 1.07 0 001.066 1.076c.588 0 1.066-.482 1.066-1.076a1.07 1.07 0 00-1.066-1.076zm-3.508-.831c0-.814-.689-1.473-1.539-1.473s-1.539.66-1.539 1.473c0 .813.69 1.472 1.54 1.472s1.538-.659 1.538-1.472zm.006-2.863h1.698v5.725h-1.698v-.366a2.96 2.96 0 01-1.684.524c-1.653 0-2.993-1.352-2.993-3.02s1.34-3.02 2.993-3.02c.625 0 1.204.193 1.684.524v-.367zm-13.592.746v-.745h-1.739v5.724h1.743v-2.673c0-.902.968-1.386 1.64-1.386h.02v-1.665c-.69 0-1.323.298-1.664.745zm-4.332 2.117c0-.814-.689-1.473-1.539-1.473s-1.539.66-1.539 1.473c0 .813.69 1.472 1.54 1.472.85 0 1.538-.659 1.538-1.472zm.006-2.863h1.699v5.725h-1.699v-.366c-.48.33-1.059.524-1.684.524-1.653 0-2.993-1.352-2.993-3.02s1.34-3.02 2.993-3.02c.625 0 1.204.193 1.684.524v-.367zm10.223-.153c-.678 0-1.32.212-1.75.798v-.644h-1.691v5.724h1.712v-3.008c0-.87.578-1.297 1.275-1.297.746 0 1.176.45 1.176 1.285v3.02h1.696v-3.64c0-1.332-1.05-2.238-2.418-2.238zm-17.374 5.878h1.778V8.402h-1.778v8.275zm-7.81.002h1.883V8.4H4.414v8.279zM10.999 8.4c0 1.792-.692 3.46-1.926 4.699l2.602 3.58H9.35l-2.827-3.89.73-.552A4.768 4.768 0 009.155 8.4h1.842z"
+                                        fill="#0A0B09"></path></g></symbol></defs><use xlink:href="#klarna.svg"></use>
+                        </svg>
+                    </span>
+                <span class="rakuten-block-3__cards__item__content__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                             class="_f-db-05e0c2 _f-overflow-hidden-70205b" width="60" height="34" data-qa="svg-icon">
+                            <defs><symbol id="paypalIcon.svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 40">
+                                <path fill="#253B80"
+                                      d="M46.211 6.749h-6.839a.95.95 0 00-.939.802l-2.766 17.537a.57.57 0 00.564.658h3.265a.95.95 0 00.939-.803l.746-4.73a.95.95 0 01.938-.803h2.165c4.505 0 7.105-2.18 7.784-6.5.306-1.89.013-3.375-.872-4.415-.972-1.142-2.696-1.746-4.985-1.746zM47 13.154c-.374 2.454-2.249 2.454-4.062 2.454h-1.032l.724-4.583a.57.57 0 01.563-.481h.473c1.235 0 2.4 0 3.002.704.359.42.469 1.044.332 1.906zm19.654-.079h-3.275a.57.57 0 00-.563.481l-.145.916-.229-.332c-.709-1.029-2.29-1.373-3.868-1.373-3.619 0-6.71 2.741-7.312 6.586-.313 1.918.132 3.752 1.22 5.031.998 1.176 2.426 1.666 4.125 1.666 2.916 0 4.533-1.875 4.533-1.875l-.146.91a.57.57 0 00.562.66h2.95a.95.95 0 00.939-.803l1.77-11.209a.568.568 0 00-.561-.658zm-4.565 6.374c-.316 1.871-1.801 3.127-3.695 3.127-.951 0-1.711-.305-2.199-.883s-.668-1.391-.514-2.301c.295-1.855 1.805-3.152 3.67-3.152.93 0 1.686.309 2.184.892.499.589.697 1.411.554 2.317zm22.007-6.374h-3.291a.954.954 0 00-.787.417l-4.539 6.686-1.924-6.425a.953.953 0 00-.912-.678h-3.234a.57.57 0 00-.541.754l3.625 10.638-3.408 4.811a.57.57 0 00.465.9h3.287a.949.949 0 00.781-.408l10.946-15.8a.57.57 0 00-.468-.895z"></path><path
+                                    fill="#179BD7"
+                                    d="M94.992 6.749h-6.84a.95.95 0 00-.938.802l-2.766 17.537a.569.569 0 00.562.658h3.51a.665.665 0 00.656-.562l.785-4.971a.95.95 0 01.938-.803h2.164c4.506 0 7.105-2.18 7.785-6.5.307-1.89.012-3.375-.873-4.415-.971-1.142-2.694-1.746-4.983-1.746zm.789 6.405c-.373 2.454-2.248 2.454-4.062 2.454h-1.031l.725-4.583a.568.568 0 01.562-.481h.473c1.234 0 2.4 0 3.002.704.359.42.468 1.044.331 1.906zm19.653-.079h-3.273a.567.567 0 00-.562.481l-.145.916-.23-.332c-.709-1.029-2.289-1.373-3.867-1.373-3.619 0-6.709 2.741-7.311 6.586-.312 1.918.131 3.752 1.219 5.031 1 1.176 2.426 1.666 4.125 1.666 2.916 0 4.533-1.875 4.533-1.875l-.146.91a.57.57 0 00.564.66h2.949a.95.95 0 00.938-.803l1.771-11.209a.571.571 0 00-.565-.658zm-4.565 6.374c-.314 1.871-1.801 3.127-3.695 3.127-.949 0-1.711-.305-2.199-.883s-.666-1.391-.514-2.301c.297-1.855 1.805-3.152 3.67-3.152.93 0 1.686.309 2.184.892.501.589.699 1.411.554 2.317zm8.426-12.219l-2.807 17.858a.569.569 0 00.562.658h2.822a.95.95 0 00.939-.803l2.768-17.536a.57.57 0 00-.562-.659h-3.16a.571.571 0 00-.562.482z"></path><path
+                                    fill="#253B80"
+                                    d="M7.266 29.154l.523-3.322-1.165-.027H1.061L4.927 1.292a.316.316 0 01.314-.268h9.38c3.114 0 5.263.648 6.385 1.927.526.6.861 1.227 1.023 1.917.17.724.173 1.589.007 2.644l-.012.077v.676l.526.298a3.69 3.69 0 011.065.812c.45.513.741 1.165.864 1.938.127.795.085 1.741-.123 2.812-.24 1.232-.628 2.305-1.152 3.183a6.547 6.547 0 01-1.825 2c-.696.494-1.523.869-2.458 1.109-.906.236-1.939.355-3.072.355h-.73c-.522 0-1.029.188-1.427.525a2.21 2.21 0 00-.744 1.328l-.055.299-.924 5.855-.042.215c-.011.068-.03.102-.058.125a.155.155 0 01-.096.035H7.266z"></path><path
+                                    fill="#179BD7"
+                                    d="M23.048 7.667l-.096.55c-1.237 6.351-5.469 8.545-10.874 8.545H9.326c-.661 0-1.218.48-1.321 1.132L6.596 26.83l-.399 2.533a.704.704 0 00.695.814h4.881c.578 0 1.069-.42 1.16-.99l.048-.248.919-5.832.059-.32c.09-.572.582-.992 1.16-.992h.73c4.729 0 8.431-1.92 9.513-7.476.452-2.321.218-4.259-.978-5.622a4.667 4.667 0 00-1.336-1.03z"></path><path
+                                    fill="#222D65"
+                                    d="M21.754 7.151a9.757 9.757 0 00-1.203-.267 15.284 15.284 0 00-2.426-.177h-7.352a1.172 1.172 0 00-1.159.992L8.05 17.605l-.045.289a1.336 1.336 0 011.321-1.132h2.752c5.405 0 9.637-2.195 10.874-8.545.037-.188.068-.371.096-.55a6.594 6.594 0 00-1.017-.429 9.045 9.045 0 00-.277-.087z"></path><path
+                                    fill="#253B80"
+                                    d="M9.614 7.699a1.169 1.169 0 011.159-.991h7.352c.871 0 1.684.057 2.426.177a9.757 9.757 0 011.481.353c.365.121.704.264 1.017.429.368-2.347-.003-3.945-1.272-5.392C20.378.682 17.853 0 14.622 0h-9.38c-.66 0-1.223.48-1.325 1.133L.01 25.898a.806.806 0 00.795.932h5.791l1.454-9.225 1.564-9.906z"></path></symbol></defs><use
+                                xlink:href="#paypalIcon.svg"></use>
+                        </svg>
+                    </span>
+                <span class="rakuten-block-3__cards__item__content__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                             class="_f-db-05e0c2 _f-overflow-hidden-70205b" width="73" height="25" data-qa="svg-icon">
+                            <defs><symbol id="floaLogo.svg" viewBox="0 0 1133 388" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg"><path
+                                    d="M570.159 116.34h-94.971c-11.854 0-21.112 9.257-21.112 21.112v133.799c0 11.855 9.258 21.112 21.112 21.112 11.855 0 21.112-9.257 21.112-21.112v-46.02h63.004c10.855 0 19.38-8.525 19.38-19.381s-8.525-19.38-19.38-19.38H496.3v-31.236h73.926c10.722 0 19.38-8.724 19.38-19.38 0-10.656-8.724-19.514-19.447-19.514zM645.217 114.942c-11.855 0-21.113 9.257-21.113 21.112v133.798c0 11.855 9.258 21.112 21.113 21.112h87.711c10.856 0 19.381-8.524 19.381-19.38s-8.525-19.381-19.381-19.381h-66.599V136.054c0-11.855-9.258-21.112-21.112-21.112zM855.672 113.476c-52.081 0-92.84 39.627-92.84 90.176v.466c0 51.149 39.693 89.71 92.374 89.71 52.081 0 92.84-39.627 92.84-90.176v-.466c0-51.148-39.694-89.71-92.374-89.71zm48.484 90.642c0 28.705-20.845 50.416-48.484 50.416-27.905 0-48.951-21.844-48.951-50.882v-.466c0-28.704 20.846-50.416 48.485-50.416 27.905 0 48.95 21.845 48.95 50.882v.466zM1036.16 293.961c19.51 0 36.83-6.193 50.15-17.982l2.99-2.597.94 3.863c2.13 8.724 10.85 14.852 21.11 14.852 12.12 0 21.64-9.391 21.64-21.312V186.07c0-23.909-6.46-42.291-19.18-54.745l-.06-.067c-12.73-13.053-33.04-19.979-58.75-19.979-20.51 0-37.29 3.063-56.272 10.256-7.193 2.797-12.255 10.19-12.255 17.915 0 10.323 8.525 18.715 19.047 18.715 2.13 0 4.26-.333 6.79-1.066l.34-.133c11.39-4.462 23.51-6.66 37.16-6.66 12.59 0 22.38 2.731 29.1 8.125 6.86 5.528 10.59 13.72 11.06 24.509l.13 3.33-3.19-.866c-8.26-2.331-21.52-5.395-40.7-5.395-22.71 0-41.49 5.328-54.209 15.451-12.587 9.99-19.181 24.642-19.181 42.358v.666c0 32.634 26.041 55.477 63.34 55.477zm-20.05-57.742c0-10.189 5.26-17.848 15.18-22.177 7.73-3.33 16.65-4.063 22.72-4.063 15.65 0 27.63 2.997 35.03 5.528l1.6.533v10.056c0 19.914-18.32 34.366-43.49 34.366-7.86 0-15.19-1.798-20.58-5.062-6.93-4.196-10.53-10.589-10.53-18.515v-.666h.07zM373.824 14.376C359.372-.076 338.726-3.939 319.878 4.186c-25.574 11.056-39.094 35.831-49.017 58.608l-38.495 93.04 92.84-38.362.2-.066c22.777-9.924 47.552-23.443 58.607-49.018 8.126-18.847 4.263-39.56-10.189-54.012zm-11.855 44.422c-4.329 10.057-13.253 22.244-46.087 36.497l-39.294 16.25 16.251-39.294c8.058-18.448 18.647-38.361 36.496-46.087 9.79-4.262 20.047-2.33 27.506 5.128 7.459 7.46 9.39 17.782 5.128 27.506zm-41.758 106.16c-26.906-10.656-55.145-2.398-79.254 7.126l-25.041 10.39a49.903 49.903 0 00-10.256-10.257l10.323-24.841.066-.2c9.457-24.109 17.782-52.347 7.126-79.254-7.792-19.78-25.84-32.034-46.952-32.034s-39.161 12.254-46.953 32.034c-2.531 6.46-3.996 12.987-4.662 19.514-5.062-4.196-10.723-7.792-17.05-10.523-19.513-8.458-40.892-4.395-55.877 10.523-14.918 14.918-18.98 36.363-10.522 55.877 2.73 6.394 6.327 11.988 10.522 17.05-6.526.599-13.053 2.064-19.513 4.661C12.32 172.75 0 190.732 0 211.911c0 21.178 12.254 39.16 32.034 46.952 6.46 2.531 12.987 3.996 19.514 4.662-4.196 5.062-7.792 10.723-10.523 17.05-8.458 19.514-4.395 40.892 10.523 55.877 9.79 9.79 22.311 14.852 35.298 14.852 6.86 0 13.853-1.399 20.579-4.329 6.394-2.731 11.988-6.327 17.05-10.523.599 6.527 2.064 13.053 4.662 19.514 7.792 19.78 25.84 32.034 46.952 32.034s39.161-12.254 46.953-32.034c2.531-6.461 3.996-12.987 4.662-19.514 5.062 4.196 10.723 7.792 17.05 10.523 6.726 2.93 13.719 4.329 20.579 4.329 12.987 0 25.508-5.129 35.298-14.852 14.918-14.918 18.981-36.363 10.522-55.877-2.73-6.394-6.327-11.988-10.522-17.05 6.526-.599 13.053-2.064 19.513-4.662 19.78-7.792 32.035-25.84 32.035-46.952s-12.188-39.161-31.968-46.953zM40.892 236.552c-10.59-4.195-16.916-13.386-16.916-24.641 0-11.256 6.327-20.446 16.916-24.642 4.662-1.865 10.256-3.33 17.915-3.33 9.857 0 23.11 2.464 42.291 9.923.333.133.733.333 1.066.466l25.041 10.39c-.333 2.397-.533 4.795-.533 7.259 0 2.464.2 4.929.533 7.26l-24.841 10.256-.2.067c-.4.199-.799.333-1.266.532-19.313 7.459-41.358 13.853-60.006 6.46zm95.504 39.96l-.067.2c-.133.4-.333.799-.466 1.265-8.391 18.981-19.447 39.028-37.828 47.02-10.456 4.529-21.445 2.464-29.37-5.461-7.926-7.926-9.99-18.915-5.462-29.371 4.529-10.456 13.72-23.11 47.153-37.895.333-.133.732-.266 1.065-.4l25.042-10.389a49.898 49.898 0 0010.256 10.256l-10.323 24.775zm0-94.105l-24.842-10.323-.199-.067c-.4-.133-.866-.333-1.266-.466-18.98-8.391-39.027-19.447-47.02-37.828-4.528-10.456-2.463-21.445 5.462-29.371 7.925-7.925 18.914-9.99 29.37-5.46 10.457 4.528 23.111 13.719 37.896 47.152.133.399.266.732.466 1.132l10.389 25.041c-3.862 2.864-7.326 6.327-10.256 10.19zm64.402 164.701c-4.196 10.589-13.387 16.916-24.642 16.916-11.255 0-20.446-6.327-24.642-16.916-4.196-10.59-6.66-26.041 6.527-60.14.133-.399.333-.732.466-1.132l10.39-25.041c2.397.333 4.795.533 7.259.533 2.464 0 4.928-.2 7.259-.533l10.257 24.841.066.2c.2.4.333.799.533 1.266 7.526 19.38 13.919 41.358 6.527 60.006zm-50.15-135.197c0-14.053 11.455-25.508 25.508-25.508 14.053 0 25.508 11.455 25.508 25.508 0 14.052-11.455 25.507-25.508 25.507-14.053 0-25.508-11.455-25.508-25.507zm43.09-73.726l-10.256 24.775c-2.398-.333-4.862-.533-7.326-.533-2.464 0-4.928.2-7.259.533l-10.323-24.842-.067-.2c-.2-.399-.333-.799-.533-1.265-7.525-19.314-13.852-41.358-6.46-60.006 4.196-10.59 13.387-16.917 24.642-16.917 11.255 0 20.446 6.327 24.642 16.917 4.262 10.722 6.726 26.44-7.06 61.538zm89.976 181.284c-7.925 7.925-18.914 9.99-29.37 5.461s-23.11-13.719-37.895-47.152a8.206 8.206 0 00-.466-1.133l-10.39-25.041a49.898 49.898 0 0010.256-10.256l24.842 10.323.2.066c.399.133.799.333 1.199.466 18.98 8.392 39.094 19.447 47.019 37.896 4.595 10.389 2.597 21.378-5.395 29.37zm27.639-82.917c-10.589 4.196-26.04 6.66-60.139-6.526-.333-.133-.733-.333-1.066-.466l-25.041-10.39c.333-2.398.532-4.795.532-7.259a53.42 53.42 0 00-.532-7.326l24.775-10.257c19.713-7.725 42.424-14.652 61.538-7.059 10.589 4.196 16.916 13.386 16.916 24.642 0 11.255-6.393 20.446-16.983 24.641z"
+                                    fill="#009FFF"></path></symbol></defs><use xlink:href="#floaLogo.svg"></use>
+                        </svg>
+                    </span>
+            </div>
+        </div>
+
+        <div class="footer-rakuten-block-4">
+            <div class="rakuten-block-4__text">
+                <span>Avec l'appli Rakuten, bénéficiez de 5% remboursés en <br> Rakuten Points sur tous vos achats !</span>
+            </div>
+
+            <div class="rakuten-block-4__cards">
+                <div class="rakuten-block-4__cards__item">
+                    <a href="">
+                    <span class="rakuten-block-4__cards__item__content__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                             class="_f-link-14c272 _f-dark-gray-bf84ac _f-appsButton-8e25c4" width="135" height="40"
+                             data-qa="svg-icon"><defs><symbol id="appStoreIcon.svg" xmlns="http://www.w3.org/2000/svg"
+                                                              viewBox="0 0 135 40" preserveAspectRatio="xMinYMin meet">
+                            <path d="M130.229 40H4.76C2.153 40 0 37.872 0 35.267V4.726C0 2.12 2.153 0 4.76 0h125.468C132.834 0 135 2.12 135 4.726v30.541c0 2.605-2.166 4.733-4.771 4.733z"
+                                  fill="#A6A6A6"></path><path
+                                d="M134.032 35.268a3.83 3.83 0 01-3.834 3.83H4.729a3.835 3.835 0 01-3.839-3.83V4.725A3.84 3.84 0 014.729.89h125.468a3.834 3.834 0 013.834 3.835l.001 30.543z"></path><path
+                                d="M30.159 19.784c-.029-3.223 2.639-4.791 2.761-4.864-1.511-2.203-3.853-2.504-4.676-2.528-1.967-.207-3.875 1.177-4.877 1.177-1.022 0-2.565-1.157-4.228-1.123-2.14.033-4.142 1.272-5.24 3.196-2.266 3.923-.576 9.688 1.595 12.859 1.086 1.553 2.355 3.287 4.016 3.226 1.625-.067 2.232-1.036 4.193-1.036 1.943 0 2.513 1.036 4.207.997 1.744-.028 2.842-1.56 3.89-3.127 1.255-1.78 1.759-3.533 1.779-3.623-.04-.014-3.387-1.291-3.42-5.154zm-3.2-9.478c.874-1.093 1.472-2.58 1.306-4.089-1.265.056-2.848.874-3.758 1.944-.806.942-1.526 2.486-1.34 3.938 1.421.106 2.88-.717 3.792-1.793zm18.216 21.198h-1.944V18.742h1.944zm5.076-12.456c-.516 1.812-1.128 3.3-1.836 4.464l-1.206.126a22.68 22.68 0 001.134-4.41l1.908-.18zm9.522 12.456h-2.07l-1.134-3.563h-3.942l-1.08 3.563h-2.016l3.906-12.132h2.412l3.924 12.132zm-3.546-5.059l-1.026-3.168c-.108-.323-.312-1.086-.612-2.286h-.036l-.576 2.286-1.008 3.168h3.258zm13.589.576c0 1.488-.402 2.664-1.207 3.528a3.52 3.52 0 01-2.682 1.152c-1.152 0-1.98-.414-2.484-1.242h-.036v4.608h-1.944v-9.433l-.072-2.88h1.71l.108 1.387h.036c.648-1.045 1.632-1.566 2.952-1.566 1.032 0 1.893.408 2.583 1.224s1.036 1.89 1.036 3.222zm-1.98.073c0-.852-.192-1.554-.576-2.105-.42-.576-.984-.864-1.692-.864-.48 0-.916.159-1.305.478s-.645.734-.765 1.25a2.55 2.55 0 00-.09.594v1.458c0 .637.195 1.174.585 1.611s.897.657 1.521.657c.732 0 1.302-.282 1.71-.846s.612-1.308.612-2.233zm12.043-.073c0 1.488-.402 2.664-1.207 3.528-.719.769-1.613 1.152-2.682 1.152-1.152 0-1.98-.414-2.484-1.242h-.035v4.608h-1.945v-9.433l-.07-2.88h1.709l.107 1.387h.037c.648-1.045 1.631-1.566 2.951-1.566 1.033 0 1.893.408 2.584 1.224s1.035 1.89 1.035 3.222zm-1.981.073c0-.852-.191-1.554-.576-2.105-.42-.576-.984-.864-1.691-.864-.48 0-.916.159-1.305.478a2.2 2.2 0 00-.766 1.25c-.061.24-.09.438-.09.594v1.458c0 .637.195 1.174.584 1.611s.898.657 1.521.657c.732 0 1.303-.282 1.711-.846s.612-1.308.612-2.233zm13.229 1.009c0 1.031-.359 1.871-1.076 2.52-.791.708-1.893 1.062-3.305 1.062-1.307 0-2.354-.252-3.145-.756l.449-1.62a5.313 5.313 0 002.809.774c.732 0 1.303-.165 1.711-.496s.613-.772.613-1.325a1.69 1.69 0 00-.504-1.244c-.336-.336-.895-.649-1.674-.938-2.125-.793-3.188-1.953-3.188-3.479a3.08 3.08 0 011.117-2.452c.744-.637 1.734-.956 2.971-.956 1.104 0 2.021.192 2.754.576l-.486 1.583c-.684-.372-1.459-.558-2.322-.558-.684 0-1.219.168-1.602.504a1.44 1.44 0 00-.486 1.099c0 .479.186.875.559 1.188.322.288.91.6 1.764.936 1.043.42 1.811.912 2.303 1.477s.738 1.264.738 2.105zm6.426-3.889h-2.141v4.248c0 1.08.377 1.62 1.133 1.62.348 0 .637-.03.865-.09l.053 1.476c-.383.145-.887.216-1.512.216-.768 0-1.367-.233-1.799-.702s-.648-1.253-.648-2.357v-4.41h-1.279v-1.458h1.279v-1.602l1.908-.576v2.178h2.141v1.457zm9.666 2.845c0 1.343-.385 2.447-1.152 3.312-.805.888-1.871 1.332-3.203 1.332-1.285 0-2.309-.426-3.07-1.278s-1.143-1.926-1.143-3.222c0-1.356.393-2.466 1.18-3.33s1.844-1.296 3.176-1.296c1.285 0 2.316.426 3.096 1.277.743.828 1.116 1.896 1.116 3.205zm-2.016.062c0-.807-.174-1.498-.523-2.076-.408-.697-.988-1.047-1.746-1.047-.779 0-1.373.35-1.781 1.047-.348.578-.521 1.281-.521 2.111 0 .808.174 1.499.521 2.076.42.698 1.008 1.048 1.764 1.048.744 0 1.326-.355 1.746-1.065.358-.59.54-1.288.54-2.094zm8.332-2.655a3.3 3.3 0 00-.611-.054c-.684 0-1.213.258-1.584.773-.324.457-.486 1.033-.486 1.729v4.59h-1.943l.018-5.994-.072-2.754h1.693l.07 1.674h.055c.205-.576.527-1.037.973-1.386a2.35 2.35 0 011.404-.468 3.05 3.05 0 01.484.035v1.855h-.001zm8.695 2.25a4.66 4.66 0 01-.072.882h-5.832c.023.864.307 1.524.846 1.98.492.408 1.129.611 1.908.611.863 0 1.65-.138 2.357-.413l.307 1.35c-.828.36-1.807.54-2.934.54-1.357 0-2.422-.398-3.195-1.197s-1.16-1.869-1.16-3.213c0-1.32.359-2.418 1.078-3.294.758-.937 1.777-1.403 3.061-1.403 1.26 0 2.215.467 2.863 1.403.516.744.773 1.662.773 2.754zm-1.853-.504c.012-.576-.115-1.073-.379-1.494-.336-.54-.852-.81-1.549-.81-.635 0-1.15.264-1.547.791-.324.421-.516.925-.576 1.513h4.051zM47.84 7.778h-1.872v5.655H44.92V7.778h-1.862v-.882h4.782zm5.141 3.075a2.53 2.53 0 01-.039.475h-3.143c.013.466.164.821.455 1.067.266.22.608.33 1.028.33.466 0 .89-.074 1.271-.223l.164.728c-.446.194-.973.291-1.581.291-.73 0-1.305-.215-1.722-.645s-.625-1.007-.625-1.731c0-.711.193-1.303.582-1.775.407-.504.956-.756 1.648-.756.679 0 1.193.252 1.542.756.28.4.42.895.42 1.483zm-1-.271a1.427 1.427 0 00-.203-.805c-.182-.291-.459-.437-.834-.437a.997.997 0 00-.835.427 1.577 1.577 0 00-.31.815h2.182zm.428-3.842l-1.174 1.406h-.728l.844-1.406h1.058zm3.141 6.693h-1.048V6.556h1.048zm5.743-2.58a2.53 2.53 0 01-.039.475h-3.143c.013.466.164.821.455 1.067.266.22.608.33 1.028.33.466 0 .89-.074 1.271-.223l.164.728c-.446.194-.973.291-1.581.291-.73 0-1.305-.215-1.722-.645s-.625-1.007-.625-1.731c0-.711.193-1.303.582-1.775.407-.504.956-.756 1.648-.756.679 0 1.193.252 1.542.756.281.4.42.895.42 1.483zm-1-.271a1.427 1.427 0 00-.203-.805c-.182-.291-.459-.437-.834-.437a.997.997 0 00-.835.427 1.577 1.577 0 00-.31.815h2.182zm.428-3.842l-1.174 1.406h-.727l.844-1.406h1.057zm5.46 2.105l-.203.795a2.062 2.062 0 00-.912-.194c-.459 0-.823.154-1.092.461s-.402.697-.402 1.169c0 .498.141.892.422 1.183s.639.437 1.072.437c.323 0 .64-.064.95-.194l.146.786c-.343.162-.775.243-1.3.243-.718 0-1.29-.218-1.717-.655s-.64-1.02-.64-1.751.229-1.331.688-1.799 1.076-.703 1.853-.703c.44-.001.819.073 1.135.222zm5.528 4.588h-1.047v-2.68c0-.845-.316-1.268-.951-1.268-.484 0-.818.245-.999.735a1.283 1.283 0 00-.049.377v2.835h-1.048V6.556h1.048v2.841h.02a1.58 1.58 0 011.417-.775c.434 0 .791.142 1.076.427.355.355.533.883.533 1.581v2.803zm5.375 0h-.941l-.078-.543h-.029c-.322.433-.781.65-1.377.65-.445 0-.805-.143-1.076-.427a1.339 1.339 0 01-.369-.96 1.46 1.46 0 01.723-1.319c.482-.304 1.16-.453 2.033-.446V10.3c0-.621-.326-.931-.979-.931-.465 0-.875.117-1.229.349l-.213-.688c.438-.271.979-.407 1.617-.407 1.232 0 1.85.65 1.85 1.95v1.736c0 .471.023.846.068 1.124zm-1.088-1.62v-.727c-1.156-.02-1.734.297-1.734.95 0 .246.066.43.201.553s.307.184.512.184a1.06 1.06 0 00.641-.218.893.893 0 00.38-.742zm5.346-2.172a1.74 1.74 0 00-.33-.029c-.367 0-.652.139-.854.417-.174.246-.262.556-.262.931v2.474H78.85l.01-3.23-.039-1.484h.912l.039.902h.029c.109-.311.283-.56.523-.747.232-.168.484-.252.756-.252.098 0 .186.006.262.019v.999zm5.47-.922l-.039 1.339v2.696c0 1.015-.227 1.727-.678 2.134-.414.375-.996.562-1.746.562-.654 0-1.182-.123-1.582-.369l.242-.805c.395.239.842.359 1.34.359.924 0 1.387-.498 1.387-1.494v-.456h-.02c-.291.479-.754.718-1.387.718-.57 0-1.039-.216-1.406-.65s-.553-.983-.553-1.649c0-.756.213-1.368.639-1.833.395-.433.877-.65 1.445-.65.641 0 1.1.249 1.379.747h.018l.039-.65h.922v.001zm-1.085 2.697v-.834a1.2 1.2 0 00-.297-.815c-.199-.227-.459-.339-.785-.339-.357 0-.65.148-.881.446s-.346.695-.346 1.193c0 .453.107.818.322 1.096.219.304.521.456.904.456a1.02 1.02 0 00.629-.208c.186-.139.316-.328.395-.567.039-.118.059-.261.059-.428zm6.789-.563a2.53 2.53 0 01-.039.475h-3.143c.014.466.164.821.455 1.067.266.22.609.33 1.029.33.465 0 .889-.074 1.271-.223l.164.728c-.447.194-.973.291-1.582.291-.73 0-1.305-.215-1.721-.645s-.625-1.007-.625-1.731c0-.711.193-1.303.582-1.775.406-.504.955-.756 1.648-.756.678 0 1.193.252 1.541.756.281.4.42.895.42 1.483zm-1-.271a1.41 1.41 0 00-.203-.805c-.182-.291-.459-.437-.834-.437a.995.995 0 00-.834.427 1.586 1.586 0 00-.311.815h2.182zm5.015-.941a1.74 1.74 0 00-.33-.029.99.99 0 00-.854.417c-.174.246-.262.556-.262.931v2.474h-1.049l.01-3.23-.037-1.484h.91l.039.902h.029a1.6 1.6 0 01.523-.747c.234-.168.486-.252.758-.252a1.61 1.61 0 01.262.019v.999h.001zm8.362 3.792h-.932l-.049-.757h-.029c-.297.576-.801.864-1.512.864a1.77 1.77 0 01-1.416-.669c-.375-.446-.562-1.025-.562-1.736 0-.763.203-1.381.609-1.853a1.88 1.88 0 011.455-.66c.635 0 1.078.213 1.33.64h.02V6.556h1.047v5.607l.039 1.27zm-1.086-1.988v-.786a1.184 1.184 0 00-.41-.965 1.027 1.027 0 00-.701-.257c-.389 0-.695.155-.92.466s-.336.708-.336 1.193c0 .466.107.844.322 1.135.227.31.531.465.914.465.344 0 .621-.129.828-.388.201-.239.303-.527.303-.863zm6.439 1.988h-.941l-.076-.543h-.029c-.324.433-.783.65-1.377.65-.447 0-.807-.143-1.078-.427a1.337 1.337 0 01-.367-.96 1.46 1.46 0 01.723-1.319c.48-.304 1.158-.453 2.031-.446V10.3c0-.621-.326-.931-.977-.931-.465 0-.875.117-1.23.349l-.213-.688c.439-.271.979-.407 1.617-.407 1.234 0 1.85.65 1.85 1.95v1.736c-.001.471.022.846.067 1.124zm-1.086-1.62v-.727c-1.158-.02-1.736.297-1.736.95 0 .246.068.43.203.553s.305.184.51.184c.232 0 .445-.073.643-.218s.316-.331.361-.558a.76.76 0 00.019-.184zm6.945 1.62h-1.049v-2.7c0-.832-.316-1.248-.949-1.248a.95.95 0 00-.758.343 1.217 1.217 0 00-.291.808v2.796h-1.047v-3.366l-.039-1.349h.922l.049.737h.029a1.5 1.5 0 01.543-.569c.283-.176.602-.265.949-.265.441 0 .807.142 1.098.427.361.349.543.87.543 1.562v2.824zm4.725-1.354c0 .438-.162.79-.484 1.055s-.77.397-1.34.397c-.537 0-.992-.107-1.367-.32l.223-.776a2.19 2.19 0 001.154.33c.537 0 .805-.197.805-.592 0-.174-.057-.318-.174-.432s-.324-.225-.621-.334c-.84-.311-1.26-.763-1.26-1.358 0-.407.154-.747.465-1.019s.721-.407 1.232-.407c.465 0 .863.095 1.193.285l-.225.753a1.84 1.84 0 00-.959-.271c-.221 0-.393.052-.516.155a.5.5 0 00-.184.397c0 .161.064.293.193.396.111.097.324.203.641.319.816.309 1.224.783 1.224 1.422z"
+                                fill="#FFFFFF"></path></symbol></defs><use xlink:href="#appStoreIcon.svg"></use>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+                <div class="rakuten-block-4__cards__item">
+                    <a href="">
+                    <span class="rakuten-block-4__cards__item__content__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                             class="_f-link-14c272 _f-dark-gray-bf84ac _f-appsButton-8e25c4" width="135" height="40"
+                             data-qa="svg-icon"><defs><symbol id="playStoreIcon.svg" xmlns="http://www.w3.org/2000/svg"
+                                                              viewBox="0 0 135 40" preserveAspectRatio="xMinYMin meet">
+                            <defs><linearGradient x1="91.488%" y1="4.948%" x2="-38.352%" y2="71.907%" id="a"><stop
+                                    stop-color="#00a0ff" offset="0%"></stop><stop stop-color="#00a1ff"
+                                                                                  offset="1%"></stop><stop
+                                    stop-color="#00beff" offset="26%"></stop><stop stop-color="#00d2ff"
+                                                                                   offset="51%"></stop><stop
+                                    stop-color="#00dfff" offset="76%"></stop><stop stop-color="#00e3ff"
+                                                                                   offset="100%"></stop></linearGradient><linearGradient
+                                    x1="107.685%" y1="50%" x2="-130.64%" y2="50%" id="b"><stop stop-color="#ffe000"
+                                                                                               offset="0%"></stop><stop
+                                    stop-color="#ffbd00" offset="41%"></stop><stop stop-color="orange"
+                                                                                   offset="78%"></stop><stop
+                                    stop-color="#ff9c00" offset="100%"></stop></linearGradient><linearGradient
+                                    x1="86.219%" y1="17.877%" x2="-50.15%" y2="194.703%" id="c"><stop
+                                    stop-color="#ff3a44" offset="0%"></stop><stop stop-color="#c31162"
+                                                                                  offset="100%"></stop></linearGradient><linearGradient
+                                    x1="-18.754%" y1="-54.052%" x2="42.121%" y2="24.917%" id="d"><stop
+                                    stop-color="#32a071" offset="0%"></stop><stop stop-color="#2da771"
+                                                                                  offset="7%"></stop><stop
+                                    stop-color="#15cf74" offset="48%"></stop><stop stop-color="#06e775"
+                                                                                   offset="80%"></stop><stop
+                                    stop-color="#00f076" offset="100%"></stop></linearGradient><radialGradient
+                                    cx="51.992" cy="13.509"
+                                    gradientTransform="matrix(.0566 -1.08 .918 .04811 -5.988 520.557)"
+                                    gradientUnits="userSpaceOnUse" id="a" r="684.445"><stop offset="0"
+                                                                                            stop-color="#fed576"></stop><stop
+                                    offset=".263" stop-color="#f47133"></stop><stop offset=".609"
+                                                                                    stop-color="#bc3081"></stop><stop
+                                    offset="1" stop-color="#4c63d2"></stop></radialGradient><radialGradient cx="51.992"
+                                                                                                            cy="13.509"
+                                                                                                            gradientTransform="matrix(.0566 -1.08 .918 .04811 -5.988 520.557)"
+                                                                                                            gradientUnits="userSpaceOnUse"
+                                                                                                            id="a"
+                                                                                                            r="684.445"><stop
+                                    offset="0" stop-color="#fed576"></stop><stop offset=".263"
+                                                                                 stop-color="#f47133"></stop><stop
+                                    offset=".609" stop-color="#bc3081"></stop><stop offset="1"
+                                                                                    stop-color="#4c63d2"></stop></radialGradient><linearGradient
+                                    x1="107.685%" y1="50%" x2="-130.64%" y2="50%" id="b"><stop stop-color="#ffe000"
+                                                                                               offset="0%"></stop><stop
+                                    stop-color="#ffbd00" offset="41%"></stop><stop stop-color="orange"
+                                                                                   offset="78%"></stop><stop
+                                    stop-color="#ff9c00" offset="100%"></stop></linearGradient><linearGradient
+                                    x1="86.219%" y1="17.877%" x2="-50.15%" y2="194.703%" id="c"><stop
+                                    stop-color="#ff3a44" offset="0%"></stop><stop stop-color="#c31162"
+                                                                                  offset="100%"></stop></linearGradient><linearGradient
+                                    x1="-18.754%" y1="-54.052%" x2="42.121%" y2="24.917%" id="d"><stop
+                                    stop-color="#32a071" offset="0%"></stop><stop stop-color="#2da771"
+                                                                                  offset="7%"></stop><stop
+                                    stop-color="#15cf74" offset="48%"></stop><stop stop-color="#06e775"
+                                                                                   offset="80%"></stop><stop
+                                    stop-color="#00f076" offset="100%"></stop></linearGradient></defs><g
+                                fill-rule="evenodd"><rect fill-rule="nonzero" x=".105" y=".036" width="134.79"
+                                                          height="39.927" rx="5"></rect><path
+                                d="M46.053 10.21c0 .898-.255 1.587-.764 2.064s-1.244.717-2.206.717h-1.539V7.533h1.706c.887 0 1.576.235 2.066.706s.736 1.127.736 1.971zm-1.197.03c0-1.172-.515-1.758-1.546-1.758h-.613v3.554h.494c1.11 0 1.665-.599 1.665-1.796zm2.323 2.751V7.533h1.152v5.458h-1.152zm5.727-1.516c0 .493-.177.881-.53 1.165s-.844.426-1.474.426c-.58 0-1.093-.11-1.539-.329v-1.075c.367.164.677.28.931.347s.486.101.697.101c.253 0 .447-.049.582-.146s.203-.241.203-.433a.48.48 0 00-.089-.286 1 1 0 00-.262-.241c-.115-.077-.35-.2-.704-.37-.332-.157-.581-.307-.747-.452s-.299-.312-.398-.504-.149-.416-.149-.672c0-.483.163-.862.489-1.139s.776-.414 1.351-.414c.282 0 .552.034.808.101a5.54 5.54 0 01.805.284l-.372.9a5.42 5.42 0 00-.719-.25 2.322 2.322 0 00-.559-.071c-.218 0-.385.051-.502.153s-.175.235-.175.399c0 .102.024.191.071.267s.122.149.225.22.346.198.73.383c.508.244.856.488 1.044.734s.282.546.282.902zm2.137-1.374h.379c.354 0 .619-.07.795-.211s.264-.345.264-.614-.074-.472-.221-.601-.378-.194-.693-.194h-.524v1.62zm2.601-.866c0 .587-.183 1.037-.548 1.348s-.885.467-1.559.467h-.494v1.941h-1.152V7.533h1.736c.659 0 1.16.142 1.503.427s.515.71.515 1.275zm5.957 1.019c0 .903-.223 1.598-.669 2.083s-1.085.728-1.918.728-1.472-.243-1.918-.728-.669-1.182-.669-2.091.224-1.602.671-2.081 1.088-.719 1.923-.719 1.474.241 1.916.724.663 1.177.663 2.083zm-3.965 0c0 .61.115 1.069.346 1.378s.575.463 1.033.463c.919 0 1.379-.613 1.379-1.84s-.457-1.844-1.371-1.844c-.458 0-.804.155-1.037.465s-.349.77-.349 1.379zm9.912 2.736h-1.464L65.72 8.862h-.033l.071 1.56v2.568h-1.029V7.533h1.453l2.36 4.088h.026l-.056-1.504V7.533h1.037v5.458zm1.368 0V7.533h1.152v5.458h-1.152zm2.52-5.458h1.691c.771 0 1.33.11 1.678.33s.522.571.522 1.051c0 .326-.076.594-.229.803a.91.91 0 01-.608.377v.037c.344.077.593.222.745.433s.229.493.229.844c0 .498-.179.886-.537 1.165s-.844.418-1.459.418h-2.033V7.533zm1.152 2.162h.669c.312 0 .538-.049.678-.146s.21-.258.21-.482c0-.209-.076-.359-.229-.45s-.393-.136-.723-.136h-.606v1.213zm0 .918v1.422h.751c.317 0 .551-.061.702-.183s.227-.309.227-.56c0-.453-.322-.679-.966-.679h-.714zm3.962 2.378V7.533h1.152v4.502h2.204v.956H78.55zm7.429 0H82.85V7.533h3.129v.948h-1.977V9.68h1.84v.948h-1.84v1.407h1.977v.956zm6.318-1.516c0 .493-.177.881-.53 1.165s-.844.426-1.474.426c-.58 0-1.093-.11-1.539-.329v-1.075c.367.164.677.28.931.347s.486.101.697.101c.253 0 .447-.049.582-.146s.203-.241.203-.433a.48.48 0 00-.089-.286 1 1 0 00-.262-.241c-.115-.077-.35-.2-.704-.37-.332-.157-.581-.307-.747-.452s-.299-.312-.398-.504-.149-.416-.149-.672c0-.483.163-.862.489-1.139s.776-.414 1.351-.414c.282 0 .552.034.808.101a5.54 5.54 0 01.805.284l-.372.9a5.42 5.42 0 00-.719-.25 2.322 2.322 0 00-.559-.071c-.218 0-.385.051-.502.153s-.175.235-.175.399c0 .102.024.191.071.267s.122.149.225.22.346.198.73.383c.508.244.856.488 1.044.734s.282.546.282.902zm5.407-3.942v3.532c0 .403-.09.757-.269 1.06s-.439.536-.779.698-.741.243-1.204.243c-.699 0-1.241-.18-1.628-.539s-.58-.852-.58-1.476V7.533h1.148v3.341c0 .421.084.729.253.926s.447.295.836.295c.377 0 .65-.099.819-.297s.255-.508.255-.931V7.533h1.148zm2.483 2.423h.372c.364 0 .633-.061.806-.183s.26-.314.26-.575-.089-.443-.266-.553-.452-.164-.823-.164h-.349v1.475zm0 .941v2.094h-1.152V7.533h1.583c.738 0 1.285.135 1.639.405s.531.68.531 1.23c0 .321-.088.607-.264.857s-.425.446-.747.588l1.598 2.378h-1.278l-1.297-2.094h-.613z"
+                                fill="#FFFFFF"></path><g fill-rule="nonzero"><path
+                                d="M129.903.835a4.192 4.192 0 014.193 4.192v29.946a4.192 4.192 0 01-4.193 4.192H5.097a4.192 4.192 0 01-4.193-4.192V5.027A4.192 4.192 0 015.097.835h124.806zm0-.799H5.097A4.992 4.992 0 00.105 5.027v29.946a4.992 4.992 0 004.992 4.991h124.806a4.992 4.992 0 004.992-4.991V5.027a4.992 4.992 0 00-4.992-4.991z"
+                                fill="#A6A6A6"></path><path
+                                d="M68.139 21.747a4.242 4.242 0 00.027 8.485 4.243 4.243 0 004.237-4.242 4.18 4.18 0 00-1.232-3.025 4.183 4.183 0 00-3.032-1.217zm0 6.818a2.576 2.576 0 112.396-2.575 2.46 2.46 0 01-2.396 2.575zm-9.296-6.818a4.243 4.243 0 00.014 8.485 4.242 4.242 0 004.24-4.242 4.18 4.18 0 00-1.232-3.025 4.183 4.183 0 00-3.032-1.217h.01zm0 6.818a2.577 2.577 0 01-2.08-4.318 2.577 2.577 0 014.466 1.743 2.46 2.46 0 01-2.396 2.575h.01zm-11.073-5.51v1.797h4.313a3.77 3.77 0 01-.998 2.266 4.415 4.415 0 01-3.325 1.318 4.792 4.792 0 110-9.582 4.59 4.59 0 013.265 1.288l1.268-1.268a6.28 6.28 0 00-4.523-1.867 6.6 6.6 0 00-5.929 3.22 6.595 6.595 0 000 6.746 6.6 6.6 0 005.929 3.22 5.99 5.99 0 004.603-1.847 5.99 5.99 0 001.558-4.212 5.86 5.86 0 00-.1-1.128l-6.061.05zm45.24 1.397a3.993 3.993 0 00-3.634-2.705 3.998 3.998 0 00-2.916 1.256 3.99 3.99 0 00-1.078 2.986 4.15 4.15 0 001.205 3.016 4.153 4.153 0 003.008 1.226 4.223 4.223 0 003.535-1.877l-1.448-.998a2.426 2.426 0 01-2.087 1.178 2.156 2.156 0 01-2.057-1.288l5.681-2.346-.21-.449zm-5.791 1.417a2.323 2.323 0 012.217-2.475 1.65 1.65 0 011.578.898l-3.794 1.577zm-4.613 4.113h1.867V17.505h-1.867v12.477zm-3.055-7.287h-.07a2.997 2.997 0 00-2.237-.998 4.253 4.253 0 000 8.494 2.9 2.9 0 002.237-.998h.06v.609c0 1.627-.869 2.495-2.266 2.495a2.348 2.348 0 01-2.137-1.507l-1.627.679a4.043 4.043 0 003.764 2.505c2.187 0 3.994-1.288 3.994-4.422v-7.556h-1.717v.699zm-2.137 5.869a2.585 2.585 0 010-5.15 2.394 2.394 0 012.266 2.575 2.377 2.377 0 01-2.276 2.576h.01zm24.342-11.06h-4.463v12.477h1.867V25.25h2.606a3.885 3.885 0 003.595-1.852 3.88 3.88 0 000-4.043 3.886 3.886 0 00-3.595-1.852h-.01zm0 5.989H99.15v-4.252h2.646a2.14 2.14 0 110 4.282l-.04-.03zm11.512-1.797a3.495 3.495 0 00-3.325 1.907l1.657.689c.334-.615 1-.975 1.697-.918a1.8 1.8 0 011.335.385c.375.302.614.743.661 1.222v.13a4.127 4.127 0 00-1.947-.479c-1.787 0-3.594.998-3.594 2.805a2.886 2.886 0 003.096 2.745 2.625 2.625 0 002.396-1.198h.06v.998h1.797v-4.801c0-2.186-1.657-3.454-3.784-3.454l-.05-.03zm-.23 6.838c-.609 0-1.458-.309-1.458-1.058 0-.998 1.058-1.328 1.997-1.328a3.311 3.311 0 011.697.419 2.256 2.256 0 01-2.187 1.996l-.05-.03zm10.613-6.538l-2.137 5.41h-.06l-2.217-5.41h-1.997l3.325 7.566-1.897 4.202h1.947l5.112-11.769h-2.077zm-16.784 7.985h1.867V17.505h-1.867v12.477z"
+                                fill="#FFFFFF"></path><path
+                                d="M10.529 7.563c-.325.39-.49.89-.459 1.397v22.08c-.03.507.134 1.007.459 1.397l.07.07 12.37-12.357v-.289L10.599 7.493l-.07.07z"
+                                fill="url(&quot;#a&quot;)"></path><path
+                                d="M27.063 24.272l-4.094-4.123v-.289l4.094-4.132.09.05 4.902 2.785c1.398.789 1.398 2.086 0 2.885l-4.882 2.775-.11.05z"
+                                fill="url(&quot;#b&quot;)"></path><path
+                                d="M27.183 24.212L22.969 20l-12.44 12.437a1.63 1.63 0 002.077.06l14.587-8.285"
+                                fill="url(&quot;#c&quot;)"></path><path
+                                d="M27.183 15.788L12.595 7.503a1.63 1.63 0 00-2.077.06L22.969 20l4.213-4.212z"
+                                fill="url(&quot;#d&quot;)"></path><path
+                                d="M27.063 24.123l-14.467 8.235a1.67 1.67 0 01-1.997 0l-.07.07.07.07a1.66 1.66 0 001.997 0l14.587-8.285-.12-.09z"
+                                opacity=".2"></path><path
+                                d="M10.529 32.298c-.325-.39-.49-.89-.459-1.397v.15a2 2 0 00.459 1.397l.07-.07-.07-.08zm21.526-11l-4.992 2.825.09.09 4.902-2.775c.566-.266.947-.814.998-1.437a1.86 1.86 0 01-.998 1.298z"
+                                opacity=".12"></path><path
+                                d="M12.595 7.642l19.46 11.06c.516.255.885.734.998 1.298a1.746 1.746 0 00-.998-1.437l-19.46-11.06c-1.398-.789-2.536-.13-2.536 1.467v.15c.03-1.607 1.148-2.266 2.536-1.477z"
+                                fill="#FFFFFF" opacity=".25"></path></g></g></symbol></defs><use
+                                xlink:href="#playStoreIcon.svg"></use>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-rakuten-block-5">
+            <div class="rakuten-block-5__item">
+                <a href="">
+                    <span class="rakuten-block-5__item__img">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                             width="91" height="29" viewBox="0 0 91 29" fill="none"><g clip-path="url(#clip0_455_11140)"
+                                                                                       fill="#BF0000">
+                            <path d="M73.2 23.63H18.19l4.386 4.387L73.2 23.63zM23.287 5.875v.664c-1.02-.653-1.935-1.032-3.19-1.032-3.854 0-6.781 3.52-6.781 7.84 0 4.326 2.927 7.84 6.78 7.84 1.256 0 2.172-.379 3.191-1.032v.664h3.388V5.875h-3.388zm-3.196 11.721c-1.902 0-3.289-1.872-3.289-4.243 0-2.367 1.393-4.239 3.29-4.239 1.902 0 3.245 1.872 3.245 4.239 0 2.366-1.338 4.243-3.246 4.243zM50.423 5.875v8.784c0 1.647-1.13 3.036-2.774 3.036-1.645 0-2.774-1.389-2.774-3.036V5.875h-3.388v8.784c0 3.602 2.462 6.533 6.058 6.533 1.666 0 2.878-.922 2.878-.922v.555h3.388V5.875h-3.388zM81.993 20.825V12.04c0-1.647 1.13-3.036 2.774-3.036 1.645 0 2.774 1.39 2.774 3.036v8.785h3.388V12.04c0-3.601-2.462-6.533-6.058-6.533-1.666 0-2.878.922-2.878.922v-.554h-3.388v14.95h3.388z"/><path
+                                d="M3.547 20.825v-5.792h2.505l4.336 5.792h4.435l-5.24-6.99c1.633-1.174 2.707-3.085 2.707-5.248 0-3.552-2.883-6.44-6.43-6.44H.005v18.678h3.542zm0-15.126H5.86a2.9 2.9 0 012.895 2.894c0 1.603-1.3 2.898-2.895 2.898H3.547V5.7zM62.944 17.29c-.308.208-.691.367-1.135.367-.554 0-1.595-.423-1.595-1.834V9.427h2.9V5.88h-2.9V2.153h-3.388V5.88h-1.793v3.547h1.793v6.446c0 3.338 2.51 5.33 5.038 5.33.942 0 2.247-.307 3.316-.938l-2.237-2.976zM35.095 12.886l5.811-7.011H36.16l-4.062 5.21V.917h-3.492v19.908h3.492v-6.138l4.994 6.138h4.747l-6.743-7.94z"/><path
+                                d="M70.772 5.496c-3.92 0-6.732 3.453-6.732 7.857 0 4.628 3.53 7.856 7.072 7.856 1.787 0 4.078-.615 5.997-3.349l-2.993-1.73c-2.314 3.416-6.173 1.68-6.617-1.734h9.758c.833-5.37-2.632-8.9-6.485-8.9zm2.954 5.924h-6.1c.712-3.497 5.443-3.7 6.1 0z"/></g><defs><clipPath
+                                id="clip0_455_11140"><path fill="#fff" transform="translate(0 .5)"
+                                                           d="M0 0h91v28H0z"/></clipPath></defs>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+            <div class="rakuten-block-5__item">
+                <a href="">
+                    <span class="rakuten-block-5__item__text">Rakuten Kobo</span>
+                </a>
+            </div>
+            <div class="rakuten-block-5__item">
+                <a href="">
+                    <span class="rakuten-block-5__item__text">Rakuten TV</span>
+                </a>
+            </div>
+            <div class="rakuten-block-5__item">
+                <a href="">
+                    <span class="rakuten-block-5__item__text">Rakuten Viber</span>
+                </a>
+            </div>
+            <div class="rakuten-block-5__item">
+                <a href="">
+                    <span class="rakuten-block-5__item__text">Rakuten Viki</span>
+                </a>
+            </div>
+            <div class="rakuten-block-5__item">
+                <a href="">
+                    <span class="rakuten-block-5__item__text">Plus de services</span>
+                </a>
+            </div>
+            <div class="rakuten-block-5__item">
+                <a href="">
+                    <span class="rakuten-block-5__item__text">À propos de Rakuten</span>
+                </a>
+            </div>
+            <div class="rakuten-block-5__item">
+                <a href="">
+                    <div class="rakuten-block-5__item__text__country">
+                        <span>France</span>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px"
+                                 fill="#5f6368">
+                    <path d="M480-333 240-573l51-51 189 189 189-189 51 51-240 240Z"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-rakuten-block-6">
+            <span>© Rakuten France 2000 - 2024</span>
+        </div>
+
+        <div class="footer-rakuten-block-7">
+            <div class="rakuten-block-7__item">
+                <a href="">
+                    <span class="rakuten-block-7__item__text">Tv</span>
+                </a>
+            </div>
+            <div class="rakuten-block-7__item">
+                <a href="">
+                    <span class="rakuten-block-7__item__text">Lave Vaisselle</span>
+                </a>
+            </div>
+            <div class="rakuten-block-7__item">
+                <a href="">
+                    <span class="rakuten-block-7__item__text">iPhone 16 reconditionné</span>
+                </a>
+            </div>
+            <div class="rakuten-block-7__item">
+                <a href="">
+                    <span class="rakuten-block-7__item__text">Airpods Pro</span>
+                </a>
+            </div>
+            <div class="rakuten-block-7__item">
+                <a href="">
+                    <span class="rakuten-block-7__item__text">Lego</span>
+                </a>
+            </div>
+            <div class="rakuten-block-7__item">
+                <a href="">
+                    <span class="rakuten-block-7__item__text">Conforama</span>
+                </a>
+            </div>
+            <div class="rakuten-block-7__item">
+                <a href="">
+                    <span class="rakuten-block-7__item__text">Ipad</span>
+                </a>
+            </div>
+            <div class="rakuten-block-7__item">
+                <a href="">
+                    <span class="rakuten-block-7__item__text">Tablette</span>
+                </a>
+            </div>
+            <div class="rakuten-block-7__item">
+                <a href="">
+                    <span class="rakuten-block-7__item__text">Nespresso</span>
+                </a>
+            </div>
+            <div class="rakuten-block-7__item">
+                <a href="">
+                    <span class="rakuten-block-7__item__text">Cookeo</span>
+                </a>
+            </div>
+        </div>
+
     </div>
-    <div class="footer-next"></div>
+
+    <div class="footer-next">
+        <div class="footer-next-block-1">
+            <div class="footer-next-block-1__text">
+                <span>Our Social Networks</span>
+            </div>
+            <div class="footer-next-block-1__socials">
+                <div class="footer-next-block-1__socials__item">
+                    <a href="">
+                    <span class="rakuten-block-3__socials__item__content__img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path
+                                fill="#000" fill-rule="evenodd"
+                                d="M12 0C5.373 0 0 5.405 0 12.073 0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047v-2.66c0-3.025 1.791-4.697 4.533-4.697 1.313 0 2.686.236 2.686.236v2.971H15.83c-1.491 0-1.956.93-1.956 1.886v2.264h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073 24 5.405 18.627 0 12 0Z"
+                                clip-rule="evenodd"/>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+                <div class="footer-next-block-1__socials__item">
+                    <a href="">
+                    <span class="rakuten-block-3__socials__item__content__img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path
+                                d="M14.232 10.162 22.974 0h-2.071l-7.591 8.824L7.249 0H.256l9.168 13.343L.256 24h2.072l8.016-9.318L16.747 24h6.993l-9.508-13.838Zm-2.838 3.299-.929-1.329L3.075 1.56h3.181l5.965 8.532.93 1.328 7.753 11.091h-3.182l-6.327-9.05Z"/>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+                <div class="footer-next-block-1__socials__item">
+                    <a href="">
+                    <span class="rakuten-block-3__socials__item__content__img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path
+                                fill="#000"
+                                d="M19.347 4.812a5.778 5.778 0 0 1-2.52-3.768A5.915 5.915 0 0 1 16.731 0h-4.128v16.536a3.476 3.476 0 0 1-3.468 3.336 3.468 3.468 0 0 1-3.468-3.468 3.477 3.477 0 0 1 3.468-3.468c.36 0 .696.06 1.02.156V8.88a7.164 7.164 0 0 0-1.02-.072c-4.188 0-7.596 3.408-7.596 7.596a7.582 7.582 0 0 0 3.24 6.216A7.58 7.58 0 0 0 9.135 24c4.188 0 7.596-3.408 7.596-7.596V8.016a9.796 9.796 0 0 0 5.736 1.848V5.736a5.844 5.844 0 0 1-3.132-.924h.012Z"/>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+                <div class="footer-next-block-1__socials__item">
+                    <a href="">
+                    <span class="rakuten-block-3__socials__item__content__img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path
+                                fill="#000" fill-rule="evenodd"
+                                d="M13.16 0c1.454.002 2.151.01 2.77.03l.433.016.585.025c1.277.059 2.15.262 2.913.558a5.886 5.886 0 0 1 2.125 1.384A5.883 5.883 0 0 1 23.37 4.14c.297.763.5 1.636.558 2.913l.026.585.015.432c.02.62.028 1.317.03 2.77l.001.845v1.475a92.78 92.78 0 0 1-.03 2.77l-.016.432-.026.585c-.058 1.277-.261 2.15-.558 2.913a5.883 5.883 0 0 1-1.384 2.126 5.883 5.883 0 0 1-2.125 1.384c-.764.296-1.636.5-2.913.558l-.585.025-.433.016a92.78 92.78 0 0 1-2.77.03h-2.32a92.778 92.778 0 0 1-2.771-.03l-.433-.016a121.99 121.99 0 0 1-.584-.025c-1.278-.059-2.15-.262-2.913-.558a5.883 5.883 0 0 1-2.126-1.384A5.883 5.883 0 0 1 .629 19.86c-.297-.763-.5-1.636-.558-2.913l-.026-.585-.015-.432A92.806 92.806 0 0 1 0 13.16v-2.322c.002-1.453.01-2.15.03-2.77l.015-.432.026-.585c.058-1.277.261-2.15.558-2.913a5.882 5.882 0 0 1 1.384-2.126A5.882 5.882 0 0 1 4.139.63C4.902.333 5.774.13 7.052.071l.584-.025L8.07.03A89.64 89.64 0 0 1 10.839 0h2.321Zm-.02 2.162h-2.28c-1.594.003-2.254.012-2.922.036l-.212.008a114.5 114.5 0 0 0-.576.025c-1.17.054-1.805.25-2.228.414a3.71 3.71 0 0 0-1.38.897c-.42.42-.68.82-.898 1.38-.164.423-.36 1.059-.413 2.229l-.025.576-.008.212c-.025.667-.034 1.327-.036 2.921v2.28c.002 1.594.011 2.253.036 2.921l.008.212.025.576c.053 1.17.249 1.806.413 2.229.218.56.478.96.898 1.38.42.42.82.68 1.38.897.423.165 1.058.36 2.228.413 1.097.05 1.528.066 3.71.07h2.28c2.181-.004 2.612-.02 3.709-.07 1.17-.053 1.805-.248 2.228-.413a3.71 3.71 0 0 0 1.38-.897c.42-.42.68-.82.898-1.38.164-.423.36-1.059.413-2.229l.025-.576.009-.212c.024-.668.033-1.327.035-2.921v-2.28c-.002-1.594-.011-2.254-.035-2.921l-.009-.212a110.92 110.92 0 0 0-.025-.576c-.053-1.17-.249-1.806-.413-2.229a3.717 3.717 0 0 0-.898-1.38 3.71 3.71 0 0 0-1.38-.897c-.423-.165-1.058-.36-2.228-.414l-.576-.025-.212-.008c-.668-.024-1.327-.033-2.921-.036ZM12 5.837a6.163 6.163 0 1 1 0 12.326 6.163 6.163 0 0 1 0-12.326ZM12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm6.406-3.846a1.44 1.44 0 1 1 0 2.88 1.44 1.44 0 0 1 0-2.88Z"
+                                clip-rule="evenodd"/>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+                <div class="footer-next-block-1__socials__item">
+                    <a href="">
+                    <span class="rakuten-block-3__socials__item__content__img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path
+                                fill="#000" fill-rule="evenodd"
+                                d="M-.001 11.999c0 5.084 3.163 9.427 7.627 11.175-.105-.95-.2-2.405.042-3.443.218-.936 1.407-5.964 1.407-5.964s-.36-.719-.36-1.782c0-1.67.968-2.915 2.172-2.915 1.024 0 1.519.77 1.519 1.69 0 1.031-.656 2.57-.994 3.996-.283 1.194.599 2.17 1.776 2.17 2.133 0 3.773-2.25 3.773-5.496 0-2.873-2.065-4.882-5.012-4.882-3.415 0-5.42 2.56-5.42 5.207 0 1.032.399 2.138.894 2.74a.356.356 0 0 1 .083.343c-.09.38-.293 1.194-.333 1.36-.052.22-.173.267-.401.161-1.5-.698-2.437-2.888-2.437-4.648 0-3.785 2.75-7.263 7.93-7.263 4.162 0 7.398 2.967 7.398 6.932 0 4.135-2.608 7.464-6.227 7.464-1.216 0-2.36-.633-2.751-1.379 0 0-.602 2.292-.747 2.853-.271 1.043-1.002 2.349-1.492 3.146 1.123.348 2.316.535 3.553.535 6.627 0 12-5.372 12-12s-5.372-12-12-12-12 5.372-12 12Z"
+                                clip-rule="evenodd"/>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+                <div class="footer-next-block-1__socials__item">
+                    <a href="">
+                    <span class="rakuten-block-3__socials__item__content__img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24"><path
+                                fill="#000" fill-rule="evenodd"
+                                d="M19.706 15.437a1.771 1.771 0 0 1-1.238 1.263c-1.092.3-5.47.3-5.47.3s-4.378 0-5.47-.3a1.77 1.77 0 0 1-1.237-1.263C5.998 14.323 5.998 12 5.998 12s0-2.324.293-3.438a1.772 1.772 0 0 1 1.237-1.263C8.62 7 12.998 7 12.998 7s4.378 0 5.47.298a1.773 1.773 0 0 1 1.238 1.263c.292 1.114.292 3.438.292 3.438s0 2.324-.292 3.438ZM12.998 0c-6.627 0-12 5.372-12 12 0 6.625 5.373 12 12 12 6.628 0 12-5.375 12-12 0-6.628-5.372-12-12-12Zm-1.399 14.141 3.636-2.143-3.636-2.141v4.284Z"
+                                clip-rule="evenodd"/>
+                        </svg>
+                    </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-next-block-2">
+            <div class="footer-next-block-2__socials">
+                <a href="">
+                <span>
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#000000" fill-rule="evenodd" d="M7 8.667c0-2.758 2.242-5 5-5s5 2.242 5 5c0 2.757-2.242 5-5 5s-5-2.243-5-5Zm9.832 4.584a6.642 6.642 0 0 0 1.835-4.584 6.667 6.667 0 0 0-13.334 0 6.64 6.64 0 0 0 1.835 4.584C4.09 14.958 2 18.238 2 22h1.667c0-3.385 2.032-6.3 4.939-7.603a6.626 6.626 0 0 0 6.788 0c2.907 1.302 4.94 4.218 4.94 7.603H22c0-3.762-2.09-7.043-5.168-8.75Z" clip-rule="evenodd"/>
+                    </svg>
+                </span>
+                </a>
+            </div>
+            <div class="footer-next-block-2__text">
+                <span>My Account</span>
+                <span>Sign-in to your account</span>
+            </div>
+        </div>
+
+        <div class="footer-next-block-3">
+            <div class="footer-next-block-3__item">
+                <ul class="footer-rakuten-block-3__item__list">
+                    <li class="footer-rakuten-block-3__item__list__head"><a href="">Help</a></li>
+                    <li><a href=""><span>Returns Information</span></a></li>
+                    <li><a href=""><span>Shipping Information</span></a></li>
+                    <li><a href=""><span>Contact Us</span></a></li>
+                    <li><a href=""><span>Product Recall</span></a></li>
+                    <li><a href=""><span>Find a Store</span></a></li>
+                </ul>
+            </div>
+            <div class="footer-rakuten-block-3__item">
+                <ul class="footer-rakuten-block-3__item__list">
+                    <li class="footer-rakuten-block-3__item__list__head"><a href="">Privacy & Legal</a></li>
+                    <li><a href=""><span>Privacy & Cookie Policy</span></a></li>
+                    <li><a href=""><span>Gender Pay Gap Report</span></a></li>
+                    <li><a href=""><span>Terms & Conditions</span></a></li>
+                    <li><a href=""><span>Manually Manage Cookies</span></a></li>
+                </ul>
+            </div>
+            <div class="footer-rakuten-block-3__item">
+                <ul class="footer-rakuten-block-3__item__list">
+                    <li class="footer-rakuten-block-3__item__list__head"><a href="">Departments</a></li>
+                    <li><a href=""><span>Womens</span></a></li>
+                    <li><a href=""><span>Mens</span></a></li>
+                    <li><a href=""><span>Boys</span></a></li>
+                    <li><a href=""><span>Girls</span></a></li>
+                    <li><a href=""><span>Home</span></a></li>
+                    <li><a href=""><span>Baby</span></a></li>
+                    <li><a href=""><span>Brands</span></a></li>
+                </ul>
+            </div>
+            <div class="footer-rakuten-block-3__item">
+                <ul class="footer-rakuten-block-3__item__list">
+                    <li class="footer-rakuten-block-3__item__list__head"><a href="">Other Services</a></li>
+                    <li><a href=""><span>Media & Press</span></a></li>
+                    <li><a href=""><span>The Company</span></a></li>
+                    <li><a href=""><span>Careers@next</span></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-next-block-4">
+            <div class="footer-next-block-4__item">
+                <a href="">
+                    <span class="rakuten-block-4__link">View mobile site</span>
+                </a>
+            </div>
+            <div class="footer-next-block-4__text">
+                <span>© 2024 Next Retail Ltd. All rights reserved</span>
+            </div>
+        </div>
+    </div>
+
 </footer>
 
 </body>
